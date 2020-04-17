@@ -4,7 +4,7 @@
 sed -i '' -e 's/96b/927/g' ./assets/gallery/style.css
 
 # On modifie l'espacement des images
-sed -i '' -e 's/p-1{padding:.25rem!important}/p-1{padding:.15rem!important}/g' ./assets/bootstrap/css/bootstrap-grid.min.css 
+sed -i '' -e 's/p-1{padding:.25rem!important}/p-1{padding:.12rem!important}/g' ./assets/bootstrap/css/bootstrap-grid.min.css 
 
 # On supprime des balises du bloc description auteur qui ne servent a rien
 sed -i '' -e 's/<p class="mbr-author-name pt-4 mb-2 mbr-fonts-style display-7">&nbsp;<\/p>//g' ./index.html
