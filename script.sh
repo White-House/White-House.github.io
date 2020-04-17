@@ -3,6 +3,9 @@
 # On remplace l'image de fond sur passage de la souris sur les images
 sed -i '' -e 's/96b/927/g' ./assets/gallery/style.css
 
+# On modifie l'espacement des images
+sed -i '' -e 's/p-1{padding:.25rem!important}/p-1{padding:.15rem!important}/g' ./assets/bootstrap/css/bootstrap-grid.min.css 
+
 # On supprime des balises du bloc description auteur qui ne servent a rien
 sed -i '' -e 's/<p class="mbr-author-name pt-4 mb-2 mbr-fonts-style display-7">&nbsp;<\/p>//g' ./index.html
 sed -i '' -e 's/<p class="mbr-author-desc mbr-fonts-style display-7">&nbsp;<\/p>//g' ./index.html
