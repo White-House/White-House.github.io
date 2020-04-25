@@ -21,6 +21,7 @@ sed -i '' -e '/<meta name="generator"/d' ./index.html
 sed -i '' -e '/<meta name="generator"/d' ./404.html
 sed -i '' -e 's/<section class="engine".*<\/a><\/section>//g' ./index.html
 sed -i '' -e 's/<section class="engine".*<\/a><\/section>//g' ./404.html
+sed -i '' -e 's/if(!document.getElementById("top-1")).*)}//g' ./assets/theme/js/script.js
 
 # On supprime les lignes vides
 sed -i '' -e '/^ *$/d' ./index.html
