@@ -3,6 +3,10 @@
 # On remplace l'image de fond sur passage de la souris sur les images
 sed -i '' -e 's/96b/927/g' ./assets/gallery/style.css
 
+# On modifie la position de l'image SPECIFIQUE afin de centrer le sujet
+# A modifier en cas de changement de l'image en background
+sed -i '' -e 's/background-position: 50% 50%;/background-position: 85% 50%;/g' ./assets/theme/css/style.css 
+
 # On modifie l'espacement des images
 sed -i '' -e 's/p-1{padding:.25rem!important}/p-1{padding:.12rem!important}/g' ./assets/bootstrap/css/bootstrap-grid.min.css 
 

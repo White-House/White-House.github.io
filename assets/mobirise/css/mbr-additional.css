@@ -1164,11 +1164,11 @@ section.lazy-placeholder:after {
   top: 0;
   width: 100%;
   height: 100%;
-  background: #554346;
+  background: #f3f4f6;
   opacity: 0;
   -webkit-transition: 0.2s opacity ease-in-out;
   transition: 0.2s opacity ease-in-out;
-  background: linear-gradient(to left, #554346, #45505b) !important;
+  background: linear-gradient(to left, #f3f4f6, #ffffff) !important;
 }
 .cid-rVXXcraYlZ .mbr-gallery-item > div {
   position: relative;
@@ -1177,7 +1177,7 @@ section.lazy-placeholder:after {
   background: transparent !important;
 }
 .cid-rVXXcraYlZ .mbr-gallery-item > div:hover:before {
-  opacity: 0 !important;
+  opacity: 0.1 !important;
 }
 .cid-rVXXcraYlZ .mbr-gallery-title {
   font-size: .9em;
@@ -1197,11 +1197,11 @@ section.lazy-placeholder:after {
   left: 0;
   z-index: -1;
   position: absolute;
-  background: #554346 !important;
-  opacity: 0;
+  background: #f3f4f6 !important;
+  opacity: 0.1;
   -webkit-transition: 0.2s background ease-in-out;
   transition: 0.2s background ease-in-out;
-  background: linear-gradient(to left, #554346, #45505b) !important;
+  background: linear-gradient(to left, #f3f4f6, #ffffff) !important;
 }
 .cid-rVXGoGANmo {
   padding-top: 0px;
