@@ -2,6 +2,7 @@
 
 # On remplace le chemin des fichiers en relative depuis la racine
 sed -i '' -e 's/href="assets/href=".\/assets/g' *.html
+sed -i '' -e 's/src="assets/src=".\/assets/g' *.html
 
 # On remplace l'image de fond sur passage de la souris sur les images
 sed -i '' -e 's/96b/927/g' ./assets/gallery/style.css
