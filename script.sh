@@ -1,5 +1,8 @@
 #!/bin/bash
 
+# On remplace le chemin des fichiers en relative depuis la racine
+sed -i '' -e 's/href="assets/href=".\/assets/g' *.html
+
 # On remplace l'image de fond sur passage de la souris sur les images
 sed -i '' -e 's/96b/927/g' ./assets/gallery/style.css
 
@@ -36,8 +39,8 @@ sed -i '' -e 's/<span style="font-weight: normal;">Aventure \ı Nature \ı Humai
 sed -i '' -e '/<body>/a\ 
 <div id="loader-wrapper"><div id="loader"><\/div><div class="loader-section section-left"><\/div><div class="loader-section section-right"><\/div><\/div>' ./index.html
 sed -i '' -e '/<title>White-House | Photographe & Explorateur<\/title>/a\ 
-<link rel="stylesheet" href="loader\/css\/main.css">' ./index.html
+<link rel="stylesheet" href=".\/loader\/css\/main.css">' ./index.html
 sed -i '' -e '/<\/body>/i\
 <script>function loadjsfile(filename)\{var fileref=document.createElement("script");fileref.setAttribute("type","text\/javascript");fileref.setAttribute("src", filename);document.getElementsByTagName("head")[0].appendChild(fileref);\}<\/script>' ./index.html
 sed -i '' -e '/<\/body>/i\
-<script>window.addEventListener("load",function(event){console.log("Toutes les ressources sont chargées !");loadjsfile("loader\/js\/main.js");});<\/script>' ./index.html
+<script>window.addEventListener("load",function(event){console.log("Toutes les ressources sont chargées !");loadjsfile(".\/loader\/js\/main.js");});<\/script>' ./index.html
