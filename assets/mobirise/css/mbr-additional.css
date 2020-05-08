@@ -1168,7 +1168,6 @@ section.lazy-placeholder:after {
   opacity: 0;
   -webkit-transition: 0.2s opacity ease-in-out;
   transition: 0.2s opacity ease-in-out;
-  background: linear-gradient(to left, #f3f4f6, #ffffff) !important;
 }
 .cid-rVXXcraYlZ .mbr-gallery-item > div {
   position: relative;
@@ -1177,7 +1176,7 @@ section.lazy-placeholder:after {
   background: transparent !important;
 }
 .cid-rVXXcraYlZ .mbr-gallery-item > div:hover:before {
-  opacity: 0.1 !important;
+  opacity: 0 !important;
 }
 .cid-rVXXcraYlZ .mbr-gallery-title {
   font-size: .9em;
@@ -1198,10 +1197,9 @@ section.lazy-placeholder:after {
   z-index: -1;
   position: absolute;
   background: #f3f4f6 !important;
-  opacity: 0.1;
+  opacity: 0;
   -webkit-transition: 0.2s background ease-in-out;
   transition: 0.2s background ease-in-out;
-  background: linear-gradient(to left, #f3f4f6, #ffffff) !important;
 }
 .cid-rVXGoGANmo {
   padding-top: 0px;
