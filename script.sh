@@ -17,6 +17,7 @@ sed -i '' -e 's/p-1{padding:.25rem!important}/p-1{padding:.12rem!important}/g' .
 # On supprime des balises du bloc description auteur qui ne servent a rien
 sed -i '' -e 's/<p class="mbr-author-name pt-4 mb-2 mbr-fonts-style display-7">&nbsp;<\/p>//g' ./index.html
 sed -i '' -e 's/<p class="mbr-author-desc mbr-fonts-style display-7">&nbsp;<\/p>//g' ./index.html
+sed -i '' -e 's/<section style=\"background-color:.*<\/section>//g' index.html
 
 # On supprime les commentaires inutiles
 sed -i '' -e '/Site made with Mobirise Website Builder/d' ./index.html
