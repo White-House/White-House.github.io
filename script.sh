@@ -4,8 +4,9 @@
 sed -i '' -e 's/href="assets/href="\/assets/g' *.html
 sed -i '' -e 's/src="assets/src="\/assets/g' *.html
 
-# On ajoute l'effet neige
+# On ajoute l'effet neige a l'image principale
 sed -i '' -e 's/href="\/assets\/gallery\/style.css">/href="\/assets\/gallery\/style.css"><link rel="stylesheet" href="\/assets\/snow\/snow.css">/g' index.html
+sed -i '' -e 's/mbr-fullscreen" id="header2-1">/mbr-fullscreen" id="header2-1"><div class="snow"><div class="snow__layer"><div class="snow__fall"><\/div><\/div><div class="snow__layer"><div class="snow__fall"><\/div><\/div><div class="snow__layer"><div class="snow__fall"><\/div><div class="snow__fall"><\/div><div class="snow__fall"><\/div><\/div><div class="snow__layer"><div class="snow__fall"><\/div><\/div><\/div>/g' index.html
 
 # On remplace l'image de fond sur passage de la souris sur les images
 sed -i '' -e 's/96b/927/g' ./assets/gallery/style.css
