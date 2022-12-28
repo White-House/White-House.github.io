@@ -4,6 +4,9 @@
 sed -i '' -e 's/href="assets/href="\/assets/g' *.html
 sed -i '' -e 's/src="assets/src="\/assets/g' *.html
 
+# On ajoute l'effet neige
+sed -i '' -e 's/href="\/assets\/gallery\/style.css">/href="\/assets\/gallery\/style.css"><link rel="stylesheet" href="\/assets\/snow\/snow.css">/g' index.html
+
 # On remplace l'image de fond sur passage de la souris sur les images
 sed -i '' -e 's/96b/927/g' ./assets/gallery/style.css
 
@@ -22,7 +25,6 @@ sed -i '' -e 's/<p class="mbr-author-name pt-4 mb-2 mbr-fonts-style display-7">&
 sed -i '' -e 's/<p class="mbr-author-desc mbr-fonts-style display-7">&nbsp;<\/p>//g' ./index.html
 sed -i '' -e 's/<section class="display-7.*section>//g' index.html
 # sed -i '' -e 's/<section style=\"background-color:.*<\/section>//g' index.html
-
 
 # On supprime les commentaires inutiles
 sed -i '' -e '/Site made with Mobirise Website Builder/d' ./index.html
