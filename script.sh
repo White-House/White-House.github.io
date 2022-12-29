@@ -63,3 +63,6 @@ sed -i '' -e '/<\/body>/i\
 <script>function loadjsfile(filename)\{var fileref=document.createElement("script");fileref.setAttribute("type","text\/javascript");fileref.setAttribute("src", filename);document.getElementsByTagName("head")[0].appendChild(fileref);\}<\/script>' ./index.html
 sed -i '' -e '/<\/body>/i\
 <script>window.addEventListener("load",function(event){console.log("Toutes les ressources sont chargées !");loadjsfile("\/loader\/js\/main.js");});<\/script>' ./index.html
+
+# Désactivation du clique droit souris (pour ne pas enregistrer les photos simplement)
+sed -i '' -e 's/<body>/<body oncontextmenu="return false">/g' index.html
