@@ -21,6 +21,9 @@ sed -i '' -e 's/assets\/images\/photo-2022-10-03-15-33-38-2000x1125-800x450/asse
 # On modifie l'espacement des images
 sed -i '' -e 's/p-1{padding:.25rem!important}/p-1{padding:.12rem!important}/g' ./assets/bootstrap/css/bootstrap-grid.min.css 
 
+# On justifie le texte de la description A PROPOS
+sed -i '' -e 's/<p class="mbr-text testimonial-text mbr-fonts-style display-1">/<p class="mbr-text testimonial-text mbr-fonts-style display-1" style="text-align:justify">/g' index.html
+
 # On supprime des balises du bloc description auteur qui ne servent a rien
 sed -i '' -e 's/<p class="mbr-author-name pt-4 mb-2 mbr-fonts-style display-7">&nbsp;<\/p>//g' ./index.html
 sed -i '' -e 's/<p class="mbr-author-desc mbr-fonts-style display-7">&nbsp;<\/p>//g' ./index.html
