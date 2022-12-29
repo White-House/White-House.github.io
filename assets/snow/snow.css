@@ -2,10 +2,10 @@ body, html {
   min-height: 100%;
 }
 
-body {
+/*body {
   background: url(todd-diemer-160708.jpg) center center;
-  background-size: cover;
-}
+  background-size: cover; 
+} */
 
 .snow {
   position: absolute;
