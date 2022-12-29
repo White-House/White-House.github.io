@@ -36,6 +36,9 @@ sed -i '' -e 's/<section class="engine".*<\/a><\/section>//g' ./index.html
 sed -i '' -e 's/<section class="engine".*<\/a><\/section>//g' ./404.html
 sed -i '' -e 's/if(!document.getElementById("top-1")).*)}//g' ./assets/theme/js/script.js
 
+# On supprime les scripts inutiles
+sed -i '' -e 's/<script src="\/assets\/sociallikes\/social-likes.js">//g' index.html
+
 # On supprime les lignes vides
 sed -i '' -e '/^ *$/d' ./index.html
 sed -i '' -e '/^ *$/d' ./404.html
