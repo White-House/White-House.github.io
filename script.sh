@@ -8,6 +8,9 @@ sed -i '' -e 's/src="assets/src="\/assets/g' *.html
 sed -i '' -e 's/href="\/assets\/gallery\/style.css">/href="\/assets\/gallery\/style.css"><link rel="stylesheet" href="\/assets\/snow\/snow.css">/g' index.html
 sed -i '' -e 's/mbr-fullscreen" id="header2-1">/mbr-fullscreen" id="header2-1"><div class="snow"><div class="snow__layer"><div class="snow__fall"><\/div><\/div><div class="snow__layer"><div class="snow__fall"><\/div><\/div><div class="snow__layer"><div class="snow__fall"><\/div><div class="snow__fall"><\/div><div class="snow__fall"><\/div><\/div><div class="snow__layer"><div class="snow__fall"><\/div><\/div><\/div>/g' index.html
 
+# On modifie le type de flèche sur la page principale
+sed -i '' -e 's/<i class="mbri-down mbr-iconfont"><\/i>/<i class="mbri-arrow-down mbr-iconfont" style="top:-5px"><\/i><i class="mbri-arrow-down mbr-iconfont" style="top:5px"><\/i>/g' index.html
+
 # On remplace l'image de fond sur passage de la souris sur les images
 sed -i '' -e 's/96b/927/g' ./assets/gallery/style.css
 
