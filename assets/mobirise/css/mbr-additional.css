@@ -2143,3 +2143,8 @@ section.lazy-placeholder:after {
 .cid-rVWEgz9RVy .mbr-section-btn {
   color: #314256;
 }
+
+.dark-mode {
+  background-color:#181818;
+  color:#f3f4f6;
+}
