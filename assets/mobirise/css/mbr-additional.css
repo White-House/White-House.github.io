@@ -2146,6 +2146,9 @@ section.lazy-placeholder:after {
 
 .dark-mode {
   background-color:#181818;
-  background:#181818;
   color:#f3f4f6;
+}
+
+.dark-mode-wallpaper {
+  background-image: url("../../../assets/images/0w4a6671-2000x1386.jpeg");
 }
