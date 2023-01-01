@@ -24,17 +24,6 @@
   <link rel="preload" as="style" href="/assets/mobirise/css/mbr-additional.css"><link rel="stylesheet" href="/assets/mobirise/css/mbr-additional.css" type="text/css">
 </head>
 <body oncontextmenu="return false">
-<script>
-const hours = new Date().getHours()
-const isDayTime = hours > 6 && hours < 20;
-if(isDayTime === true){
-  document.write('day');
-} else {
-    document.write('night');
-    var element = document.getElementById("gallery4-1j");
-    element.classList.toggle("dark-mode");
-	}
-</script>
 <div id="loader-wrapper"><div id="loader"></div><div class="loader-section section-left"></div><div class="loader-section section-right"></div></div>
 <section class="$DayAndNight menu cid-rVMVw69ncm" once="menu" id="menu2-y">
 	<nav class="navbar navbar-expand beta-menu navbar-dropdown align-items-center navbar-fixed-top collapsed bg-color transparent">
@@ -216,6 +205,19 @@ if(isDayTime === true){
 </section><script src="/assets/popper/popper.min.js"></script>  <script src="/assets/web/assets/jquery/jquery.min.js"></script>  <script src="/assets/bootstrap/js/bootstrap.min.js"></script>  <script src="/assets/tether/tether.min.js"></script>  <script src="/assets/smoothscroll/smooth-scroll.js"></script>  <script src="/assets/dropdown/js/nav-dropdown.js"></script>  <script src="/assets/dropdown/js/navbar-dropdown.js"></script>  <script src="/assets/touchswipe/jquery.touch-swipe.min.js"></script>  <script src="/assets/masonry/masonry.pkgd.min.js"></script>  <script src="/assets/imagesloaded/imagesloaded.pkgd.min.js"></script>  <script src="/assets/bootstrapcarouselswipe/bootstrap-carousel-swipe.js"></script>  <script src="/assets/vimeoplayer/jquery.mb.vimeo_player.js"></script>  </script>  <script src="/assets/theme/js/script.js"></script>  <script src="/assets/gallery/player.min.js"></script>  <script src="/assets/gallery/script.js"></script>  <script src="/assets/slidervideo/script.js"></script>  
 <script>function loadjsfile(filename){var fileref=document.createElement("script");fileref.setAttribute("type","text/javascript");fileref.setAttribute("src", filename);document.getElementsByTagName("head")[0].appendChild(fileref);}</script>
 <script>window.addEventListener("load",function(event){console.log("Toutes les ressources sont chargées !");loadjsfile("/loader/js/main.js");});</script>
+
+        <script>
+                const hours = new Date().getHours()
+                const isDayTime = hours > 6 && hours < 20;
+                if(isDayTime === true){
+                                        document.write('day');
+                                } else {
+                                                        document.write('night');
+                                                        var element = document.getElementById("gallery4-1j");
+                                                        element.classList.toggle("dark-mode");
+                                                }
+        </script>
+
 <script>
 	function myFunction() {
 			var element = document.getElementById("gallery4-1j");
