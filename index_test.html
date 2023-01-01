@@ -24,6 +24,15 @@
   <link rel="preload" as="style" href="/assets/mobirise/css/mbr-additional.css"><link rel="stylesheet" href="/assets/mobirise/css/mbr-additional.css" type="text/css">
 </head>
 <body oncontextmenu="return false">
+<script>
+const hours = new Date().getHours()
+const isDayTime = hours > 6 && hours < 20;
+if(isDayTime === true){
+  document.write('day');
+} else {
+    document.write('night');
+}
+</script>
 <div id="loader-wrapper"><div id="loader"></div><div class="loader-section section-left"></div><div class="loader-section section-right"></div></div>
   <section class="menu cid-rVMVw69ncm" once="menu" id="menu2-y">
     <nav class="navbar navbar-expand beta-menu navbar-dropdown align-items-center navbar-fixed-top collapsed bg-color transparent">
