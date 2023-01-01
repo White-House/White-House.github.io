@@ -213,8 +213,11 @@
                                         document.write('day');
                                 } else {
                                                         document.write('night');
-                                                        var element = document.getElementById("gallery4-1j");
-                                                        element.classList.toggle("dark-mode");
+                                                        //var element = document.getElementById("gallery4-1j");
+                                                        //element.classList.toggle("dark-mode");
+
+							var nightMode = document.querySelectorAll("#gallery4-1j, #gallery4-1k, #gallery4-1i");
+							nightMode.classList.toggle("dark-mode");
                                                 }
         </script>
 
