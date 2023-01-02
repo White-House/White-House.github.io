@@ -73,8 +73,8 @@ sed -i '' -e 's/<nav class="navbar navbar-expand beta-menu navbar-dropdown align
 sed -i '' -e 's/<div class="navbar-brand">/<div class="navbar-brand"><input class="input-night-button" type="checkbox" id="switch-button" onclick="dayOrNightSelector()"><label class="night-button" for="switch-button"><i class="fas fa-sun"><\/i><i class="fas fa-moon"><\/i><\/label>/g' ./index.html
 sed -i '' -e '/<\/body>/i\
 <script src="./assets/navbar-mode/navbar-mode.js"></script>' ./index.html
-sed -i '' -e '/<link rel="stylesheet" href=".\/assets\/theme\/css\/style.css">/i\
-<link rel="stylesheet" href=".\/assets\/fa\/css\/all.css">' ./index.html
+sed -i '' -e '/<\/title>/i\
+<link rel="stylesheet" href="./assets/fa/css/all.css">' ./index.html
 
 # Désactivation du clique droit souris (pour ne pas enregistrer les photos simplement)
 sed -i '' -e 's/<body>/<body oncontextmenu="return false">/g' index.html
