@@ -15,7 +15,9 @@ document.getElementsByClassName("navbar-toggler")[0].addEventListener("click", (
 function switchNavBarNightMode() {
 	if (window.scrollY <= 0) {
 		if (document.getElementById("navbar").classList.toString().split(" ").includes("opened") && isNightMode) {
-			setDarkModeOnNavBar();
+				setDarkModeOnNavBar();
+			} else if (document.getElementById("navbar").classList.toString().split(" ").includes("opened") && !isNightMode) {
+				setWhiteModeOnNavBar();
 			} else {
 				setTransparentNavBar();
 	} else {
