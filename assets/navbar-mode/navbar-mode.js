@@ -16,9 +16,8 @@ function switchNavBarNightMode() {
 	if (window.scrollY <= 0) {
 		if (document.getElementById("navbar").classList.toString().split(" ").includes("opened") && isNightMode) {
 			setDarkModeOnNavBar();
-			} else if (!document.getElementById("navbar").classList.toString().split(" ").includes("opened") && isNightMode) {
+			} else {
 				setTransparentNavBar();
-			}
 	} else {
 		if (isNightMode) {
 			setDarkModeOnNavBar();
