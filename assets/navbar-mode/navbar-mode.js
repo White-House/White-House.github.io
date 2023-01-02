@@ -13,7 +13,7 @@ document.getElementsByClassName("navbar-toggler")[0].addEventListener("click", (
 });
 
 function switchNavBarNightMode() {
-	if (window.scrollY === 0)
+	if (window.scrollY <= 0)
 	{
 		setTransparentNavBar();
 		setTimeout(function() {
@@ -73,12 +73,6 @@ function dayOrNightSelector() {
 	}
 	
 	switchNavBarNightMode();
-
-	// ajouter id navarbar !!!!
-	
-	//var element = document.getElementById("gallery4-1j");
-	//element.classList.toggle("dark-mode");
-	// https://fontawesome.com/v5/download
 }
 
 if(isDayTime !== true){
