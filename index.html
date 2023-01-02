@@ -26,7 +26,7 @@
 <body oncontextmenu="return false">
 <div id="loader-wrapper"><div id="loader"></div><div class="loader-section section-left"></div><div class="loader-section section-right"></div></div>
   <section class="menu cid-rVMVw69ncm" once="menu" id="menu2-y">
-    <nav class="navbar navbar-expand beta-menu navbar-dropdown align-items-center navbar-fixed-top collapsed bg-color transparent">
+    <nav class="navbar navbar-expand beta-menu navbar-dropdown align-items-center navbar-fixed-top collapsed bg-color transparent" id="navbar">
         <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <div class="hamburger">
                 <span></span>
@@ -36,7 +36,7 @@
             </div>
         </button>
         <div class="menu-logo">
-            <div class="navbar-brand">
+            <div class="navbar-brand"><input class="input-night-button" type="checkbox" id="switch-button" onclick="dayOrNightSelector()"><label class="night-button" for="switch-button"><i class="fas fa-sun"></i><i class="fas fa-moon"></i></label>
             </div>
         </div>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -199,7 +199,7 @@
             </div>
         </div>
     </div>
-</section><script src="/assets/popper/popper.min.js"></script>  <script src="/assets/web/assets/jquery/jquery.min.js"></script>  <script src="/assets/bootstrap/js/bootstrap.min.js"></script>  <script src="/assets/tether/tether.min.js"></script>  <script src="/assets/smoothscroll/smooth-scroll.js"></script>  <script src="/assets/dropdown/js/nav-dropdown.js"></script>  <script src="/assets/dropdown/js/navbar-dropdown.js"></script>  <script src="/assets/touchswipe/jquery.touch-swipe.min.js"></script>  <script src="/assets/masonry/masonry.pkgd.min.js"></script>  <script src="/assets/imagesloaded/imagesloaded.pkgd.min.js"></script>  <script src="/assets/bootstrapcarouselswipe/bootstrap-carousel-swipe.js"></script>  <script src="/assets/vimeoplayer/jquery.mb.vimeo_player.js"></script>  </script>  <script src="/assets/theme/js/script.js"></script>  <script src="/assets/gallery/player.min.js"></script>  <script src="/assets/gallery/script.js"></script>  <script src="/assets/slidervideo/script.js"></script>  
+</section><script src="/assets/popper/popper.min.js"></script>  <script src="/assets/web/assets/jquery/jquery.min.js"></script>  <script src="/assets/bootstrap/js/bootstrap.min.js"></script>  <script src="/assets/tether/tether.min.js"></script>  <script src="/assets/smoothscroll/smooth-scroll.js"></script>  <script src="/assets/dropdown/js/nav-dropdown.js"></script>  <script src="/assets/dropdown/js/navbar-dropdown.js"></script>  <script src="/assets/touchswipe/jquery.touch-swipe.min.js"></script>  <script src="/assets/masonry/masonry.pkgd.min.js"></script>  <script src="/assets/imagesloaded/imagesloaded.pkgd.min.js"></script>  <script src="/assets/bootstrapcarouselswipe/bootstrap-carousel-swipe.js"></script>      <script src="/assets/theme/js/script.js"></script>  <script src="/assets/gallery/player.min.js"></script>  <script src="/assets/gallery/script.js"></script>  <script src="/assets/slidervideo/script.js"></script>  
 <script>function loadjsfile(filename){var fileref=document.createElement("script");fileref.setAttribute("type","text/javascript");fileref.setAttribute("src", filename);document.getElementsByTagName("head")[0].appendChild(fileref);}</script>
 <script>window.addEventListener("load",function(event){console.log("Toutes les ressources sont chargées !");loadjsfile("/loader/js/main.js");});</script>
 </body>

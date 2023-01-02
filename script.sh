@@ -68,5 +68,9 @@ sed -i '' -e '/<\/body>/i\
 sed -i '' -e '/<\/body>/i\
 <script>window.addEventListener("load",function(event){console.log("Toutes les ressources sont chargées !");loadjsfile("\/loader\/js\/main.js");});<\/script>' ./index.html
 
+# On modifie l'index afin d'ajouter le mode jour/nuit
+sed -i '' -e 's/<nav class="navbar navbar-expand beta-menu navbar-dropdown align-items-center navbar-fixed-top collapsed bg-color transparent">/<nav class="navbar navbar-expand beta-menu navbar-dropdown align-items-center navbar-fixed-top collapsed bg-color transparent" id="navbar">/g' ./index.html
+sed -i '' -e 's/<div class="navbar-brand">/<div class="navbar-brand"><input class="input-night-button" type="checkbox" id="switch-button" onclick="dayOrNightSelector()"><label class="night-button" for="switch-button"><i class="fas fa-sun"><\/i><i class="fas fa-moon"><\/i><\/label>/g' ./index.html
+
 # Désactivation du clique droit souris (pour ne pas enregistrer les photos simplement)
 sed -i '' -e 's/<body>/<body oncontextmenu="return false">/g' index.html
