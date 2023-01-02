@@ -43,7 +43,11 @@ sed -i '' -e 's/<section class="engine".*<\/a><\/section>//g' ./404.html
 sed -i '' -e 's/if(!document.getElementById("top-1")).*)}//g' ./assets/theme/js/script.js
 
 # On supprime les scripts inutiles
-sed -i '' -e 's/<script src="\/assets\/sociallikes\/social-likes.js">//g' index.html
+sed -i '' -e 's/<script src="\/assets\/sociallikes\/social-likes.js"><\/script>//g' index.html
+sed -i '' -e 's/<script src="\/assets\/vimeoplayer\/jquery.mb.vimeo_player.js"><\/script>//g' index.html
+
+# On supprime l'appel youtube dans script.js pour gagner du temps de chargement
+sed -i '' -e 's/tag.src = "https:\/\/www.youtube.com\/iframe_api";/\/*tag.src = "https:\/\/www.youtube.com\/iframe_api";*\//g' ./assets/gallery/script.js
 
 # On supprime les lignes vides
 sed -i '' -e '/^ *$/d' ./index.html
