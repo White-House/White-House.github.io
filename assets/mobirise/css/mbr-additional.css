@@ -893,6 +893,7 @@ section.lazy-placeholder:after {
 .cid-rVMVw69ncm .collapsed.navbar-expand {
   flex-direction: column;
   -webkit-flex-direction: column;
+  transition: all 0.25s ease-out;
 }
 .cid-rVMVw69ncm .collapsed .btn {
   display: -webkit-flex;
