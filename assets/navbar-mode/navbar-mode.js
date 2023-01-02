@@ -20,6 +20,7 @@ function switchNavBarNightMode() {
 				setWhiteModeOnNavBar();
 			} else {
 				setTransparentNavBar();
+			}
 	} else {
 		if (isNightMode) {
 			setDarkModeOnNavBar();
