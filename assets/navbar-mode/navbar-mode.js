@@ -21,7 +21,7 @@ function switchNavBarNightMode() {
 			if (document.getElementById("navbar").classList.toString().split(" ").includes("opened") && isNightMode) {
 				setDarkModeOnNavBar();
 			}
-		}, 5);
+		}, 1);
 	} else {
 		if (isNightMode) {
 			setDarkModeOnNavBar();
