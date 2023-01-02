@@ -16,6 +16,10 @@ function switchNavBarNightMode() {
 	console.log("Fonction entrée");
 	if (window.scrollY <= 0) {
 		console.log("SCOLL <= 0");
+
+		setTimeout(function() {
+
+
 		if (document.getElementById("navbar").classList.toString().split(" ").includes("opened") && isNightMode == true) {
 				setDarkModeOnNavBar();
 				console.log("SCOLL OPPENED & isNightMode");
@@ -26,6 +30,7 @@ function switchNavBarNightMode() {
 				setTransparentNavBar();
 				console.log("AUTRE");
 			}
+					}, 1);
 	} else {
 		if (isNightMode) {
 			setDarkModeOnNavBar();
