@@ -15,29 +15,20 @@ document.getElementsByClassName("navbar-toggler")[0].addEventListener("click", (
 function switchNavBarNightMode() {
 	console.log("Fonction entrée");
 	if (window.scrollY <= 0) {
-		console.log("SCOLL <= 0");
-
 		setTimeout(function() {
-
-
-		if (document.getElementById("navbar").classList.toString().split(" ").includes("opened") && isNightMode == true) {
+			if (document.getElementById("navbar").classList.toString().split(" ").includes("opened") && isNightMode == true) {
 				setDarkModeOnNavBar();
-				console.log("SCOLL OPPENED & isNightMode");
 			} else if (document.getElementById("navbar").classList.toString().split(" ").includes("opened") && isNightMode == false) {
 				setWhiteModeOnNavBar();
-				console.log("SCOLL OPPENED & ! isNightMode");
 			} else {
 				setTransparentNavBar();
-				console.log("AUTRE");
 			}
-					}, 1);
+		}, 1);
 	} else {
 		if (isNightMode) {
 			setDarkModeOnNavBar();
-			console.log("ELSE isNightMode");
 		} else {
 			setWhiteModeOnNavBar();
-			console.log("ELSE ! isNightMode");
 		}
 	}
 }
