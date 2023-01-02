@@ -13,8 +13,23 @@ document.getElementsByClassName("navbar-toggler")[0].addEventListener("click", (
 });
 
 function switchNavBarNightMode() {
-	if (window.scrollY <= 0)
-	{
+	if (window.scrollY <= 0) {
+		if (document.getElementById("navbar").classList.toString().split(" ").includes("opened") && isNightMode) {
+			setDarkModeOnNavBar();
+			} else if (!document.getElementById("navbar").classList.toString().split(" ").includes("opened") && isNightMode) {
+				setTransparentNavBar();
+			}
+	} else {
+		if (isNightMode) {
+			setDarkModeOnNavBar();
+		} else {
+			setWhiteModeOnNavBar();
+		}
+	}
+}
+
+/*function switchNavBarNightMode() {
+	if (window.scrollY <= 0) {
 		setTransparentNavBar();
 		setTimeout(function() {
 			setTransparentNavBar();
@@ -29,7 +44,7 @@ function switchNavBarNightMode() {
 			setWhiteModeOnNavBar();
 		}
 	}
-}
+}*/
 
 function setDarkModeOnNavBar() {
 	document.getElementById("navbar").classList.remove("bg-color");
