@@ -4,9 +4,9 @@
 sed -i '' -e 's/href="assets/href="\/assets/g' *.html
 sed -i '' -e 's/src="assets/src="\/assets/g' *.html
 
-# On ajoute l'effet neige a l'image principale
+# On ajoute les effets a l'image principale (snw; bubble)
 sed -i '' -e 's/href="\/assets\/gallery\/style.css">/href="\/assets\/gallery\/style.css"><link rel="stylesheet" href="\/assets\/snow\/snow.css">/g' index.html
-sed -i '' -e 's/mbr-fullscreen" id="header2-1">/mbr-fullscreen" id="header2-1"><div class="snow"><div class="snow__layer"><div class="snow__fall"><\/div><\/div><div class="snow__layer"><div class="snow__fall"><\/div><\/div><div class="snow__layer"><div class="snow__fall"><\/div><div class="snow__fall"><\/div><div class="snow__fall"><\/div><\/div><div class="snow__layer"><div class="snow__fall"><\/div><\/div><\/div>/g' index.html
+sed -i '' -e 's/mbr-fullscreen" id="header2-1">/<iframe style="position: fixed;width: 100%;height: 100%;top: 0;border: none;" id="animation-wallpaper" src=".\/assets\/snow\/snow.html"><\/iframe>/g' index.html
 
 # On modifie le type de flèche sur la page principale
 sed -i '' -e 's/<i class="mbri-down mbr-iconfont"><\/i>/<i class="mbri-arrow-down mbr-iconfont" style="top:-5px"><\/i><i class="mbri-arrow-down mbr-iconfont" style="top:5px"><\/i>/g' index.html
@@ -75,6 +75,7 @@ sed -i '' -e '/<\/body>/i\
 <script src="./assets/navbar-mode/navbar-mode.js"></script>' ./index.html
 sed -i '' -e '/<\/title>/i\
 <link rel="stylesheet" href="./assets/fa/css/all.css">' ./index.html
+sed -i '' -e 's/text-black/text-white text-black/g' ./index.html
 
 # Désactivation du clique droit souris (pour ne pas enregistrer les photos simplement)
 sed -i '' -e 's/<body>/<body oncontextmenu="return false">/g' index.html
