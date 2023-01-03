@@ -4,6 +4,9 @@ const hours = new Date().getHours()
 const isDayTime = hours > 7 && hours < 19;
 var isNightMode = document.getElementById("switch-button").checked;
 
+var animationFrame = document.getElementById("animation-wallpaper");
+animationFrame.src = "./assets/snow/snow.html";
+		
 addEventListener("scroll", (event) => {
 	switchNavBarNightMode();
 });
@@ -13,31 +16,21 @@ document.getElementsByClassName("navbar-toggler")[0].addEventListener("click", (
 });
 
 function switchNavBarNightMode() {
-	console.log("Fonction entrée");
 	if (window.scrollY <= 0) {
-		console.log("SCOLL <= 0");
-
 		setTimeout(function() {
-
-
 		if (document.getElementById("navbar").classList.toString().split(" ").includes("opened") && isNightMode == true) {
 				setDarkModeOnNavBar();
-				console.log("SCOLL OPPENED & isNightMode");
 			} else if (document.getElementById("navbar").classList.toString().split(" ").includes("opened") && isNightMode == false) {
 				setWhiteModeOnNavBar();
-				console.log("SCOLL OPPENED & ! isNightMode");
 			} else {
 				setTransparentNavBar();
-				console.log("AUTRE");
 			}
 					}, 1);
 	} else {
 		if (isNightMode) {
 			setDarkModeOnNavBar();
-			console.log("ELSE isNightMode");
 		} else {
 			setWhiteModeOnNavBar();
-			console.log("ELSE ! isNightMode");
 		}
 	}
 }
@@ -99,6 +92,12 @@ function dayOrNightSelector() {
 	var nightMode = document.querySelectorAll("#content4-8, #gallery4-1j, #gallery4-1k, #gallery4-1i, #gallery4-1g, #gallery4-1b, #gallery4-1a, #gallery4-6, #gallery4-p, #gallery4-r, #gallery4-t, #gallery4-w, #gallery4-1c, #gallery4-1d, #gallery4-1e, #content4-d, #testimonials3-c, #social-buttons2-1l, #footer6-b");
 	for(var i = 0; i < nightMode.length; ++i) {
 		nightMode[i].classList.toggle("dark-mode");
+	}
+	
+	if (isNightMode) {
+		animationFrame.src = "./assets/bubble/bubble.html";
+	} else {
+		animationFrame.src = "./assets/snow/snow.html";
 	}
 	
 	switchNavBarNightMode();
