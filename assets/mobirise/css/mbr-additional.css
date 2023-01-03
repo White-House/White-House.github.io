@@ -2187,7 +2187,7 @@ section.lazy-placeholder:after {
   color:orange;
   font-size:20px;
   text-shadow:0px 0px 20px orange;
-  transform:translateX(25px);
+  transform:translateX(20px);
   transition:.3s;
   padding:0;
   margin:0;
@@ -2211,5 +2211,5 @@ section.lazy-placeholder:after {
 
 #switch-button:checked ~ label > .fa-moon{
   opacity:1;
-  transform:translateX(-25px);
+  transform:translateX(-20px);
 }
