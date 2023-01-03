@@ -3,7 +3,7 @@ body, html {
 }
 
 .snow {
-  position: fixed;
+  position: absolute;
   top: 0;
   left: 0;
   right: 0;
@@ -12,7 +12,7 @@ body, html {
 }
 
 .snow__layer {
-  position: fixed;
+  position: absolute;
   left: -100px;
   right: -100px;
   -webkit-animation: wind 5s cubic-bezier(0.45, 0.05, 0.55, 0.95) infinite alternate;
@@ -26,7 +26,7 @@ body, html {
 
 .snow__fall {
   content: '';
-  position: fixed;
+  position: absolute;
   top: 0;
   left: 0;
   right: 0;
