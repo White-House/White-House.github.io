@@ -1,0 +1,10 @@
+User-agent: *
+Allow: /
+
+Disallow: /assets/
+Disallow: /fonts/
+Disallow: /loader/
+Disallow: /script.sh
+Disallow: /project.mobirise
+
+Sitemap: https://white-house.github.io/sitemap.xml
