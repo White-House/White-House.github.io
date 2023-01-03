@@ -5,11 +5,11 @@ sed -i '' -e 's/href="assets/href="\/assets/g' *.html
 sed -i '' -e 's/src="assets/src="\/assets/g' *.html
 
 # On ajoute les effets a l'image principale (snw; bubble)
-sed -i '' -e 's/href="\/assets\/gallery\/style.css">/href="\/assets\/gallery\/style.css"><link rel="stylesheet" href="\/assets\/snow\/snow.css"><link rel="stylesheet" href="\/assets\/bubble\/bubble.css">/g' index.html
-sed -i '' -e 's/mbr-fullscreen" id="header2-1">/<iframe style="position: fixed;width: 100%;height: 100%;top: 0;border: none;" scrolling="no" id="animation-wallpaper" src=".\/assets\/snow\/snow.html"><\/iframe>/g' index.html
+sed -i '' -e 's/href="\/assets\/gallery\/style.css">/href="\/assets\/gallery\/style.css"><link rel="stylesheet" href="\/assets\/snow\/snow.css"><link rel="stylesheet" href="\/assets\/bubble\/bubble.css">/g' ./index.html
+sed -i '' -e 's/mbr-fullscreen" id="header2-1">/<iframe style="position: absolute; width: 100%; height: 100%; top: 0; border: none;" scrolling="no" id="animation-wallpaper" src="\/assets\/snow\/snow.html"><\/iframe>/g' ./index.html
 
 # On modifie le type de flèche sur la page principale
-sed -i '' -e 's/<i class="mbri-down mbr-iconfont"><\/i>/<i class="mbri-arrow-down mbr-iconfont" style="top:-5px"><\/i><i class="mbri-arrow-down mbr-iconfont" style="top:5px"><\/i>/g' index.html
+sed -i '' -e 's/<i class="mbri-down mbr-iconfont"><\/i>/<i class="mbri-arrow-down mbr-iconfont" style="top:-5px"><\/i><i class="mbri-arrow-down mbr-iconfont" style="top:5px"><\/i>/g' ./index.html
 
 # On remplace l'image de fond sur passage de la souris sur les images
 sed -i '' -e 's/96b/927/g' ./assets/gallery/style.css
@@ -19,18 +19,18 @@ sed -i '' -e 's/96b/927/g' ./assets/gallery/style.css
 sed -i '' -e 's/background-position: 50% 50%;/background-position: 85% 50%;/g' ./assets/theme/css/style.css 
 
 # On modifie la taille de l'image en pleine page pour une meilleure résolution 'col-lg-12'
-sed -i '' -e 's/assets\/images\/photo-2022-10-03-15-33-38-2000x1125-800x450/assets\/images\/photo-2022-10-03-15-33-38-2000x1125/g' index.html
+sed -i '' -e 's/assets\/images\/photo-2022-10-03-15-33-38-2000x1125-800x450/assets\/images\/photo-2022-10-03-15-33-38-2000x1125/g' ./index.html
 
 # On modifie l'espacement des images
 sed -i '' -e 's/p-1{padding:.25rem!important}/p-1{padding:.12rem!important}/g' ./assets/bootstrap/css/bootstrap-grid.min.css 
 
 # On justifie le texte de la description A PROPOS
-sed -i '' -e 's/<p class="mbr-text testimonial-text mbr-fonts-style display-1">/<p class="mbr-text testimonial-text mbr-fonts-style display-1" style="text-align:justify">/g' index.html
+sed -i '' -e 's/<p class="mbr-text testimonial-text mbr-fonts-style display-1">/<p class="mbr-text testimonial-text mbr-fonts-style display-1" style="text-align:justify">/g' ./index.html
 
 # On supprime des balises du bloc description auteur qui ne servent a rien
 sed -i '' -e 's/<p class="mbr-author-name pt-4 mb-2 mbr-fonts-style display-7">&nbsp;<\/p>//g' ./index.html
 sed -i '' -e 's/<p class="mbr-author-desc mbr-fonts-style display-7">&nbsp;<\/p>//g' ./index.html
-sed -i '' -e 's/<section class="display-7.*section>//g' index.html
+sed -i '' -e 's/<section class="display-7.*section>//g' ./index.html
 # sed -i '' -e 's/<section style=\"background-color:.*<\/section>//g' index.html
 
 # On supprime les commentaires inutiles
@@ -43,8 +43,8 @@ sed -i '' -e 's/<section class="engine".*<\/a><\/section>//g' ./404.html
 sed -i '' -e 's/if(!document.getElementById("top-1")).*)}//g' ./assets/theme/js/script.js
 
 # On supprime les scripts inutiles
-sed -i '' -e 's/<script src="\/assets\/sociallikes\/social-likes.js"><\/script>//g' index.html
-sed -i '' -e 's/<script src="\/assets\/vimeoplayer\/jquery.mb.vimeo_player.js"><\/script>//g' index.html
+sed -i '' -e 's/<script src="\/assets\/sociallikes\/social-likes.js"><\/script>//g' ./index.html
+sed -i '' -e 's/<script src="\/assets\/vimeoplayer\/jquery.mb.vimeo_player.js"><\/script>//g' ./index.html
 
 # On supprime l'appel youtube dans script.js pour gagner du temps de chargement
 sed -i '' -e 's/tag.src = "https:\/\/www.youtube.com\/iframe_api";/\/*tag.src = "https:\/\/www.youtube.com\/iframe_api";*\//g' ./assets/gallery/script.js
@@ -72,10 +72,10 @@ sed -i '' -e '/<\/body>/i\
 sed -i '' -e 's/<nav class="navbar navbar-expand beta-menu navbar-dropdown align-items-center navbar-fixed-top collapsed bg-color transparent">/<nav class="navbar navbar-expand beta-menu navbar-dropdown align-items-center navbar-fixed-top collapsed bg-color transparent" id="navbar">/g' ./index.html
 sed -i '' -e 's/<div class="navbar-brand">/<div class="navbar-brand"><input class="input-night-button" type="checkbox" id="switch-button" onclick="dayOrNightSelector()"><label class="night-button" for="switch-button"><i class="fas fa-sun"><\/i><i class="fas fa-moon"><\/i><\/label>/g' ./index.html
 sed -i '' -e '/<\/body>/i\
-<script src="./assets/navbar-mode/navbar-mode.js"></script>' ./index.html
+<script src="/assets/navbar-mode/navbar-mode.js"></script>' ./index.html
 sed -i '' -e '/<\/title>/i\
-<link rel="stylesheet" href="./assets/fa/css/all.css">' ./index.html
+<link rel="stylesheet" href="/assets/fa/css/all.css">' ./index.html
 sed -i '' -e 's/text-black/text-white text-black/g' ./index.html
 
 # Désactivation du clique droit souris (pour ne pas enregistrer les photos simplement)
-sed -i '' -e 's/<body>/<body oncontextmenu="return false">/g' index.html
+sed -i '' -e 's/<body>/<body oncontextmenu="return false">/g' ./index.html
