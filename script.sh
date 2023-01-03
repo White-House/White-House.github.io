@@ -6,7 +6,7 @@ sed -i '' -e 's/src="assets/src="\/assets/g' *.html
 
 # On ajoute les effets a l'image principale (snw; bubble)
 sed -i '' -e 's/href="\/assets\/gallery\/style.css">/href="\/assets\/gallery\/style.css"><link rel="stylesheet" href="\/assets\/snow\/snow.css"><link rel="stylesheet" href=".\/assets\/bubble\/bubble.css">/g' index.html
-sed -i '' -e 's/mbr-fullscreen" id="header2-1">/<iframe style="position: fixed;width: 100%;height: 100%;top: 0;border: none;" id="animation-wallpaper" src=".\/assets\/snow\/snow.html"><\/iframe>/g' index.html
+sed -i '' -e 's/mbr-fullscreen" id="header2-1">/<iframe style="position: fixed;width: 100%;height: 100%;top: 0;border: none;" scrolling="no" id="animation-wallpaper" src=".\/assets\/snow\/snow.html"><\/iframe>/g' index.html
 
 # On modifie le type de flèche sur la page principale
 sed -i '' -e 's/<i class="mbri-down mbr-iconfont"><\/i>/<i class="mbri-arrow-down mbr-iconfont" style="top:-5px"><\/i><i class="mbri-arrow-down mbr-iconfont" style="top:5px"><\/i>/g' index.html
