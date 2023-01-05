@@ -67,7 +67,7 @@ sed -i '' -e 's/<span class="icon-focus"><\/span>//g' ./index.html
 # Insert source and code for easy loader
 sed -i '' -e '/<body>/a\ 
 <div id="loader-wrapper"><div id="loader"><\/div><div class="loader-section section-left"><\/div><div class="loader-section section-right"><\/div><\/div>' ./index.html
-sed -i '' -e '/<title>White-House | Photographe & Explorateur<\/title>/a\ 
+sed -i '' -e '/<\/title>/a\ 
 <link rel="stylesheet" href="\/loader\/css\/main.css">' ./index.html
 sed -i '' -e '/<\/body>/i\
 <script>function loadjsfile(filename)\{var fileref=document.createElement("script");fileref.setAttribute("type","text\/javascript");fileref.setAttribute("src", filename);document.getElementsByTagName("head")[0].appendChild(fileref);\}<\/script>' ./index.html
