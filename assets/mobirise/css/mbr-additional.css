@@ -2145,6 +2145,22 @@ section.lazy-placeholder:after {
   color: #314256;
 }
 
+.image-info {
+  position: absolute;
+  text-align: center;
+  display: table-cell;
+  vertical-align: middle;
+  border: solid;
+  border-radius: 20px;
+  background-color: rgba(3, 3, 3, 0.6);
+  border-width: thin;
+  bottom: 10px;
+  left: 10px;
+  width: auto;
+  padding: 0.5rem;
+  color: #f3f4f6;
+}
+
 .dark-mode {
   background:#272727 !important;
   background-color:#272727;

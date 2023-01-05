@@ -4,7 +4,7 @@
 sed -i '' -e 's/href="assets/href="\/assets/g' *.html
 sed -i '' -e 's/src="assets/src="\/assets/g' *.html
 
-# On ajoute les effets a l'image principale (snow bubble)
+# On ajoute les effets a l'image principale (snow, bubble)
 sed -i '' -e 's/href="\/assets\/gallery\/style.css">/href="\/assets\/gallery\/style.css"><link rel="stylesheet" href="\/assets\/snow\/snow.css"><link rel="stylesheet" href="\/assets\/bubble\/bubble.css">/g' ./index.html
 sed -i '' -e 's/mbr-fullscreen" id="header2-1">/mbr-fullscreen" id="header2-1"><iframe style="position: absolute; width: 100%; height: 100%; top: 0; border: none;" scrolling="no" id="animation-wallpaper" src="\/assets\/snow\/snow.html"><\/iframe>/g' ./index.html
 
@@ -57,6 +57,12 @@ sed -i '' -e '/^ *$/d' ./404.html
 sed -i '' -e 's/<div class="mbr-white col-md-10">/<div class="mbr-white col-md-4">/g' ./index.html
 sed -i '' -e 's/<h1 class="mbr-section-title mbr-bold pb-3 mbr-fonts-style display-5">/<h1 class="mbr-section-title mbr-bold pb-1 mbr-fonts-style display-5" style="height: auto; background-color:white;width: auto;margin: auto;border-style: solid; font-size: 1.6em;">/g' ./index.html
 sed -i '' -e 's/<span style="font-weight: normal;">Aventure \ı Nature \ı Humain<\/span>/<span style="font-weight: 100; font-size: 0.8em !important;">Aventure \ı Nature \ı Humain<\/span>/g' ./index.html
+
+# On modifie le cadre de légende des images
+sed -i '' -e 's/mbr-gallery-title mbr-fonts-style display-7">/image-info display-7"><i class="fa fa-info-circle" aria-hidden="true"><\/i>   /g' ./index.html
+
+# On supprime l'icone d'agrandissement de l'image lors du overlay
+sed -i '' -e 's/<span class="icon-focus"><\/span>//g' ./index.html
 
 # Insert source and code for easy loader
 sed -i '' -e '/<body>/a\ 
