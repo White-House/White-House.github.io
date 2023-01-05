@@ -2235,12 +2235,12 @@ section.lazy-placeholder:after {
 	white-space: nowrap;
 	text-decoration:none;
 	border-radius:60px;
-	height:32px;
+	height:30px;
 	display:inline-flex;
 	align-items:center;
 	overflow:hidden;
 	width:auto;
-	max-width:32px;
+	max-width:30px;
 	-webkit-transition:max-width 0.5s;
 	transition:max-width 0.5s;
 }
