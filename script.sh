@@ -58,11 +58,12 @@ sed -i '' -e 's/<div class="mbr-white col-md-10">/<div class="mbr-white col-md-4
 sed -i '' -e 's/<h1 class="mbr-section-title mbr-bold pb-3 mbr-fonts-style display-5">/<h1 class="mbr-section-title mbr-bold pb-1 mbr-fonts-style display-5" style="height: auto; background-color:white;width: auto;margin: auto;border-style: solid; font-size: 1.6em;">/g' ./index.html
 sed -i '' -e 's/<span style="font-weight: normal;">Aventure \ı Nature \ı Humain<\/span>/<span style="font-weight: 100; font-size: 0.8em !important;">Aventure \ı Nature \ı Humain<\/span>/g' ./index.html
 
-# On modifie le cadre de légende des images
-sed -i '' -e 's/mbr-gallery-title mbr-fonts-style display-7">/button-info-image image-info display-7"><i class="fa fa-info-circle" aria-hidden="true"><\/i>\&ensp;/g' ./index.html
-
 # On supprime l'icone d'agrandissement de l'image lors du overlay
 sed -i '' -e 's/<span class="icon-focus"><\/span>//g' ./index.html
+
+# On modifie le cadre de légende des images
+sed -i '' -e 's/<span class="mbr-gallery-title mbr-fonts-style display-7">/<\/div><span class="button-info-image image-info display-7"><i class="fa fa-info-circle" aria-hidden="true"><\/i>\&ensp;/g' ./index.html
+sed -i '' -e 's/<\/span><\/div><\/div>/<\/span><\/div>/g' ./index.html
 
 # Insert source and code for easy loader
 sed -i '' -e '/<body>/a\ 
