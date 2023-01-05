@@ -2229,3 +2229,22 @@ section.lazy-placeholder:after {
   opacity:1;
   transform:translateX(-20px);
 }
+
+.button-info-image{
+	color:white;
+	white-space: nowrap;
+	text-decoration:none;
+	border-radius:60px;
+	height:32px;
+	display:inline-flex;
+	align-items:center;
+	overflow:hidden;
+	width:auto;
+	max-width:32px;
+	-webkit-transition:max-width 0.5s;
+	transition:max-width 0.5s;
+}
+
+.button-info-image:hover{
+	max-width:400px;
+}
