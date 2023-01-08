@@ -89,7 +89,7 @@ function dayOrNightSelector() {
 		}
 	}
 		
-	var nightMode = document.querySelectorAll("#content4-8, #gallery4-1j, #gallery4-1k, #gallery4-1i, #gallery4-1g, #gallery4-1b, #gallery4-1a, #gallery4-6, #gallery4-p, #gallery4-r, #gallery4-t, #gallery4-w, #gallery4-1c, #gallery4-1d, #gallery4-1e, #content4-d, #testimonials3-c, #social-buttons2-1l, #footer6-b");
+	var nightMode = document.querySelectorAll("#content4-8, #gallery4-1n, #gallery4-1j, #gallery4-1k, #gallery4-1i, #gallery4-1g, #gallery4-1b, #gallery4-1a, #gallery4-6, #gallery4-p, #gallery4-r, #gallery4-t, #gallery4-w, #gallery4-1c, #gallery4-1d, #gallery4-1e, #content4-d, #testimonials3-c, #social-buttons2-1l, #footer6-b");
 	for(var i = 0; i < nightMode.length; ++i) {
 		nightMode[i].classList.toggle("dark-mode");
 	}
