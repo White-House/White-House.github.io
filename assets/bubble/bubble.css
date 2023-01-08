@@ -49,12 +49,12 @@ div .dot {
 }
 .bubble div:nth-child(2) {
   top: 85%;
-  left: 80%;
+  left: 75%;
   animation: animate 12s linear infinite;
 }
 .bubble div:nth-child(3) {
   top: 50%;
-  left: 95%;
+  left: 90%;
   animation: animate 5s linear infinite;
 }
 .bubble div:nth-child(4) {
