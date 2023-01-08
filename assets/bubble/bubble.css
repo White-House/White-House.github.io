@@ -54,7 +54,7 @@ div .dot {
 }
 .bubble div:nth-child(3) {
   top: 50%;
-  left: 40%;
+  left: 95%;
   animation: animate 5s linear infinite;
 }
 .bubble div:nth-child(4) {
