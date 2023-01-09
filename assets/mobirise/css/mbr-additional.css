@@ -2244,10 +2244,6 @@ section.lazy-placeholder:after {
   color:#f3f4f6 !important;
 }
 
-.dark-mode-logo {
-  background-image: url("./assets/images/benoit-maison-blanche_white.png");
-}
-
 .white-mode-bar {
   background:#f0f0f0 !important;
   background-color:#f0f0f0;
