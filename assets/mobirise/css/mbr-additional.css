@@ -2237,16 +2237,23 @@ section.lazy-placeholder:after {
   background-color:#272727;
   color:#f3f4f6;
 }
+
 .dark-mode-bar {
   background:#1f1f1f !important;
   background-color:#1f1f1f;
   color:#f3f4f6 !important;
 }
+
+.dark-mode-logo {
+  background-image: url("./assets/images/benoit-maison-blanche_white.png");
+}
+
 .white-mode-bar {
   background:#f0f0f0 !important;
   background-color:#f0f0f0;
   color:#000000 !important;
 }
+
 .dark-mode-wallpaper {
   background-image: url("../../../assets/images/0w4a6671-2000x1386.jpeg");
   background-position: 30% 50%;

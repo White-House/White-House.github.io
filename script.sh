@@ -85,7 +85,7 @@ sed -i '' -e '/<\/title>/i\
 sed -i '' -e 's/text-black/text-white text-black/g' ./index.html
 
 # On ajoute le logo dans la barre de menu au milieu /!\ DEPEND DU MODE JOUR NUIT /!\
-sed -i '' -e 's/<i class="fas fa-moon"><\/i><\/label>/<i class="fas fa-moon"><\/i><\/label><\/div><div class="navbar-logo logo-center"><a href=".\/index.html"><img src=".\/assets\/images\/benoit-maison-blanche_white.png" alt="Benoit Maison-Blanche" title="Benoit Maison-Blanche" style="height: 3.8rem;"><\/a>/g' ./index.html
+sed -i '' -e 's/<i class="fas fa-moon"><\/i><\/label>/<i class="fas fa-moon"><\/i><\/label><\/div><div class="navbar-logo logo-center"><a href="#top"><img src=".\/assets\/images\/benoit-maison-blanche_white.png" alt="Benoit Maison-Blanche" title="Benoit Maison-Blanche" style="height: 3.8rem;"><\/a>/g' ./index.html
 
 # Désactivation du clique droit souris (pour ne pas enregistrer les photos simplement)
 sed -i '' -e 's/<body>/<body onmousedown="return false" onselectstart="return false" oncontextmenu="return false">/g' ./index.html
