@@ -96,8 +96,10 @@ function dayOrNightSelector() {
 	
 	if (isNightMode) {
 		animationFrame.src = "./assets/bubble/bubble.html";
+		document.getElementById("logo").src="./assets/images/benoit-maison-blanche_white.png";
 	} else {
 		animationFrame.src = "./assets/snow/snow.html";
+		document.getElementById("logo").src="./assets/images/benoit-maison-blanche_black.png";
 	}
 	
 	switchNavBarNightMode();
