@@ -2325,7 +2325,8 @@ section.lazy-placeholder:after {
 
 .logo-center {
   position: absolute; 
-  top: 50%; 
+  /*top: 50%; */
+  top:2.2rem;
   left: 50%; 
   margin-right: -50%; 
   transform: translate(-50%, -50%);
