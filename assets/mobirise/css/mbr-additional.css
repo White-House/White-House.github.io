@@ -811,7 +811,7 @@ section.lazy-placeholder:after {
   z-index: 1000;
 }
 .cid-rVMVw69ncm .navbar.navbar-short {
-  min-height: 65px;
+  min-height: 60px;
   transition: all .2s;
 }
 .cid-rVMVw69ncm .navbar.navbar-short .navbar-toggler-right {

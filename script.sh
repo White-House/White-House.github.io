@@ -69,11 +69,11 @@ sed -i '' -e 's/<\/span><\/div><\/div>/<\/span><\/div>/g' ./index.html
 sed -i '' -e '/<body>/a\ 
 <div id="loader-wrapper"><div id="loader"><\/div><div class="loader-section section-left"><\/div><div class="loader-section section-right"><\/div><\/div>' ./index.html
 sed -i '' -e '/<\/title>/a\ 
-<link rel="stylesheet" href="\/loader\/css\/main.css">' ./index.html
+<link rel="stylesheet" href=".\/loader\/css\/main.css">' ./index.html
 sed -i '' -e '/<\/body>/i\
 <script>function loadjsfile(filename)\{var fileref=document.createElement("script");fileref.setAttribute("type","text\/javascript");fileref.setAttribute("src", filename);document.getElementsByTagName("head")[0].appendChild(fileref);\}<\/script>' ./index.html
 sed -i '' -e '/<\/body>/i\
-<script>window.addEventListener("load",function(event){console.log("Toutes les ressources sont chargées !");loadjsfile("\/loader\/js\/main.js");});<\/script>' ./index.html
+<script>window.addEventListener("load",function(event){console.log("Toutes les ressources sont chargées !");loadjsfile(".\/loader\/js\/main.js");});<\/script>' ./index.html
 
 # On modifie l'index afin d'ajouter le mode jour/nuit
 sed -i '' -e 's/<nav class="navbar navbar-expand beta-menu navbar-dropdown align-items-center navbar-fixed-top collapsed bg-color transparent">/<nav class="navbar navbar-expand beta-menu navbar-dropdown align-items-center navbar-fixed-top collapsed bg-color transparent" id="navbar">/g' ./index.html
