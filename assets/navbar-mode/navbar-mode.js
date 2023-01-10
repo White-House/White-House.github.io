@@ -97,9 +97,13 @@ function dayOrNightSelector() {
 	if (isNightMode) {
 		animationFrame.src = "./assets/bubble/bubble.html";
 		document.getElementById("logo").src="./assets/images/benoit-maison-blanche_white.png";
+		document.getElementById("body").classList.add("body-background-dark");
+		document.getElementById("body").classList.remove("body-background-white");
 	} else {
 		animationFrame.src = "./assets/snow/snow.html";
 		document.getElementById("logo").src="./assets/images/benoit-maison-blanche_black.png";
+		document.getElementById("body").classList.add("body-background-white");
+		document.getElementById("body").classList.remove("body-background-dark");
 	}
 	
 	switchNavBarNightMode();

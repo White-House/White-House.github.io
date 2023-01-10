@@ -2331,3 +2331,11 @@ section.lazy-placeholder:after {
   margin-right: -50%; 
   transform: translate(-50%, -50%);
 }
+
+.body-background-white {
+  background-color: #f3f4f6;
+}
+
+.body-background-dark {
+  background-color: #272727;
+}
