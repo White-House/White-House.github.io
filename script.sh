@@ -93,6 +93,10 @@ sed -i '' -e 's/<body>/<body id="body" class="body-background-white" onmousedown
 # On ajoute un retour à la ligne pour meilleur lecture du texte (et ensuite )
 sed -i '' -e $'s/<\/div>/\\\n<\/div>/g' ./index.html
 
+# On ajoute un lady loader sur les images du caroulles mais pas sur la page index
+sed -i '' -e 's/<div class="carousel-item"><img/<div class="carousel-item"><img loading="lazy"/g' ./index.html
+sed -i '' -e 's/<div class="carousel-item active"><img/<div class="carousel-item active"><img loading="lazy"/g' ./index.html
+
 # On modifie la balise Titre de toutes les images (principalement pour indexation google)
 STR='alt="';
 newTitle="";
