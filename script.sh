@@ -125,15 +125,15 @@ sed -i '' -e 's/Tapez la légende ici/LOCALISATION EN COURS .../g' ./index.html
 
 # Modification des données META pour un meilleur référencement
 sed -i '' -e '/og:image/i\
-<link rel="canonical" href="https:\/\/white-house.github.io">' ./index.html
+#<link rel="canonical" href="https:\/\/white-house.github.io">' ./index.html
 sed -i '' -e '/og:image/i\
-<meta name="robots" content="index"\/>' ./index.html
+#<meta name="robots" content="index"\/>' ./index.html
 sed -i '' -e '/og:image/i\
-<meta name="copyright" content="© 2023 Benoit MAISON-BLANCHE"\/>' ./index.html
+#<meta name="copyright" content="© 2023 Benoit MAISON-BLANCHE"\/>' ./index.html
 sed -i '' -e '/og:image/i\
 <meta name="Language" CONTENT="fr"\/>' ./index.html
 sed -i '' -e '/og:image/i\
-<meta property="og:type" content="website"\/>' ./index.html
+#<meta property="og:type" content="website"\/>' ./index.html
 sed -i '' -e '/og:image/i\
 <meta property="og:title" content="Benoit Maison-Blanche | Photographe & Explorateur"\/>' ./index.html
 sed -i '' -e '/og:image/i\
@@ -143,6 +143,6 @@ sed -i '' -e '/og:image/i\
 sed -i '' -e '/og:image/i\
 <meta property="og:nom_du_site" content="Benoit Maison-Blanche"\/>' ./index.html
 sed -i '' -e '/twitter:image:src/i\
-<meta name="twitter:title" content="Benoit Maison-Blanche">' ./index.html
+<meta name="twitter:title" content="Benoit Maison-Blanche | Photographe & Explorateur">' ./index.html
 sed -i '' -e '/twitter:image:src/i\
 <meta name="twitter:description" content="Avec son époustouflant record de France d'"'"'apnée dynamique bi-palmes (204 m), Benoit réalise des photos à travers le monde afin de capturer l'"'"'incroyable beauté de notre planète bleue.">' ./index.html
