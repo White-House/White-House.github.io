@@ -43,6 +43,10 @@ sed -i '' -e '/<meta http-equiv="X-UA-Compatible" content="IE=edge">/d' ./index.
 sed -i '' -e 's/<section class="engine".*<\/a><\/section>//g' ./index.html
 sed -i '' -e 's/<section class="engine".*<\/a><\/section>//g' ./404.html
 sed -i '' -e 's/if(!document.getElementById("top-1")).*)}//g' ./assets/theme/js/script.js
+sed -i '' -e '/Mobirise.*blank/,+2d' index.html
+sed -i '' -e '/Mobirise.*blank/,+2d' index.html
+sed -i '' -e '/mobirise.*blank/,+2d' index.html
+sed -i '' -e '/mobirise.*blank/,+2d' index.html
 
 # On supprime les scripts inutiles
 sed -i '' -e 's/<script src=".\/assets\/sociallikes\/social-likes.js"><\/script>//g' ./index.html
