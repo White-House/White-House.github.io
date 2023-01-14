@@ -3,6 +3,7 @@
 # On remplace le chemin des fichiers en relative depuis la racine
 sed -i '' -e 's/href="assets/href=".\/assets/g' *.html
 sed -i '' -e 's/src="assets/src=".\/assets/g' *.html
+sed -i '' -e 's/"assets/".\/assets/g' *.html
 
 # On ajoute les effets a l'image principale (snow, bubble)
 sed -i '' -e 's/href="\/assets\/gallery\/style.css">/href=".\/assets\/gallery\/style.css"><link rel="stylesheet" href=".\/assets\/snow\/snow.css"><link rel="stylesheet" href=".\/assets\/bubble\/bubble.css">/g' ./index.html
@@ -38,6 +39,7 @@ sed -i '' -e '/Site made with Mobirise Website Builder/d' ./index.html
 sed -i '' -e '/Site made with Mobirise Website Builder/d' ./404.html
 sed -i '' -e '/<meta name="generator"/d' ./index.html
 sed -i '' -e '/<meta name="generator"/d' ./404.html
+sed -i '' -e '/<meta http-equiv="X-UA-Compatible" content="IE=edge">/d' ./index.html
 sed -i '' -e 's/<section class="engine".*<\/a><\/section>//g' ./index.html
 sed -i '' -e 's/<section class="engine".*<\/a><\/section>//g' ./404.html
 sed -i '' -e 's/if(!document.getElementById("top-1")).*)}//g' ./assets/theme/js/script.js
@@ -120,3 +122,27 @@ done
 
 # Au cas ou des images n'aient pas encore une description (localisation), on remplace le texte par défaut
 sed -i '' -e 's/Tapez la légende ici/LOCALISATION EN COURS .../g' ./index.html
+
+# Modification des données META pour un meilleur référencement
+sed -i '' -e '/og:image/i\
+<link rel="canonical" href="https:\/\/white-house.github.io">' ./index.html
+sed -i '' -e '/og:image/i\
+<meta name="robots" content="index"\/>' ./index.html
+sed -i '' -e '/og:image/i\
+<meta name="copyright" content="© 2023 Benoit MAISON-BLANCHE"\/>' ./index.html
+sed -i '' -e '/og:image/i\
+<meta name="Language" CONTENT="fr"\/>' ./index.html
+sed -i '' -e '/og:image/i\
+<meta property="og:type" content="website"\/>' ./index.html
+sed -i '' -e '/og:image/i\
+<meta property="og:title" content="Benoit Maison-Blanche | Photographe & Explorateur"\/>' ./index.html
+sed -i '' -e '/og:image/i\
+<meta property="og:url" content="https:\/\/white-house.github.io\/"\/>' ./index.html
+sed -i '' -e '/og:image/i\
+<meta property="og:description" content="Avec son époustouflant record de France d'"'"'apnée dynamique bi-palmes (204 m), Benoit réalise des photos à travers le monde afin de capturer l'"'"'incroyable beauté de notre planète bleue."\/>' ./index.html
+sed -i '' -e '/og:image/i\
+<meta property="og:nom_du_site" content="Benoit Maison-Blanche"\/>' ./index.html
+sed -i '' -e '/twitter:image:src/i\
+<meta name="twitter:title" content="Benoit Maison-Blanche">' ./index.html
+sed -i '' -e '/twitter:image:src/i\
+<meta name="twitter:description" content="Avec son époustouflant record de France d'"'"'apnée dynamique bi-palmes (204 m), Benoit réalise des photos à travers le monde afin de capturer l'"'"'incroyable beauté de notre planète bleue.">' ./index.html

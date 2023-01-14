@@ -26,6 +26,7 @@ Disallow: /assets/touchswipe/
 Disallow: /fonts/
 Disallow: /loader/
 Disallow: /script.sh
+Disallow: /404.html
 Disallow: /project.mobirise
 
 Sitemap: https://white-house.github.io/sitemap.xml
