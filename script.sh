@@ -150,3 +150,6 @@ sed -i '' -e '/twitter:image:src/i\
 <meta name="twitter:title" content="Benoit Maison-Blanche | Photographe & Explorateur">' ./index.html
 sed -i '' -e '/twitter:image:src/i\
 <meta name="twitter:description" content="Avec son époustouflant record de France d'"'"'apnée dynamique bi-palmes (204 m), Benoit réalise des photos à travers le monde afin de capturer l'"'"'incroyable beauté de notre planète bleue.">' ./index.html
+sed -i '' -e '/twitter:image:src/i\
+<meta name="thumbnail" content="https:\/\/white-house.github.io\/assets\/images\/index-meta.jpg"/>' ./index.html
+
