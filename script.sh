@@ -79,7 +79,7 @@ sed -i '' -e '/<\/title>/a\
 sed -i '' -e '/<\/body>/i\
 <script>function loadjsfile(filename)\{var fileref=document.createElement("script");fileref.setAttribute("type","text\/javascript");fileref.setAttribute("src", filename);document.getElementsByTagName("head")[0].appendChild(fileref);\}<\/script>' ./index.html
 sed -i '' -e '/<\/body>/i\
-<script>window.addEventListener("load",function(event){console.log("Toutes les ressources sont chargées !");loadjsfile(".\/loader\/js\/main.js");});<\/script>' ./index.html
+<script>window.addEventListener("load",function(event){loadjsfile(".\/loader\/js\/main.js");});<\/script>' ./index.html
 
 # On modifie l'index afin d'ajouter le mode jour/nuit
 sed -i '' -e 's/<nav class="navbar navbar-expand beta-menu navbar-dropdown align-items-center navbar-fixed-top collapsed bg-color transparent">/<nav class="navbar navbar-expand beta-menu navbar-dropdown align-items-center navbar-fixed-top collapsed bg-color transparent" id="navbar">/g' ./index.html

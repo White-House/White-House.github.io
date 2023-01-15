@@ -51,7 +51,7 @@
       }
     ],
     "versionFirst": "4.7.6",
-    "uniqCompNum": 62,
+    "uniqCompNum": 63,
     "versionPublish": "5.7.4",
     "imageResize": true,
     "screenshot": "screenshot.png",
@@ -888,10 +888,10 @@
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
                 "image": "@PROJECT_PATH@/assets/images/0w4a1710-1-2000x3000.jpg",
                 "thumb": "@PROJECT_PATH@/assets/images/0w4a1710-1-2000x3000-800x1200.jpg",
-                "alt": "",
+                "alt": "ÎLE DE LA RÉUNION / BALEINE À BOSSE",
                 "title": "",
                 "customStyle1": "display-7",
-                "caption": "Tapez la légende ici",
+                "caption": "ÎLE DE LA RÉUNION / BALEINE À BOSSE ",
                 "active": false
               },
               {
@@ -1030,7 +1030,7 @@
           },
           "_name": "gallery4",
           "_sourceTheme": "mobirise4",
-          "_customHTML": "<section class=\"mbr-gallery mbr-slider-carousel\" group=\"Sliders & Gallery\" plugins=\"Masonry,BootstrapCarouselSwipe,Gallery,VimeoPlayer,SliderVideo\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked>\n        <input type=\"range\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"0\" inline>\n        <input type=\"range\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"0\" inline>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#f3f4f6\">\n        <input type=\"checkbox\" title=\"Gradient Overlay\" name=\"gradOverlay\">\n        <input type=\"color\" title=\"Overlay Color 2\" name=\"overlayColor2\" value=\"#ffffff\" condition=\"gradOverlay\">\n        <input type=\"range\" title=\"Overlay Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0\" inline>\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#f3f4f6\">\n        \n        <header>Gallery</header>\n        <input type=\"gallery\" subtype=\"flex\" title=\"Gallery\" name=\"gallery\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div mbr-class=\"{'container': !fullWidth}\">\n        <div mbr-gallery=\"gallery\" mbr-gallery-spacing=\"1\" mbr-gallery-count=\"3\" mbr-gallery-first-count=\"3\" mbr-gallery-second-count=\"2\" mbr-gallery-third-count=\"1\" mbr-gallery-fourth-count=\"3\" mbr-gallery-show-text></div>\n    </div>\n\n</section>",
+          "_customHTML": "<section class=\"mbr-gallery mbr-slider-carousel\" group=\"Sliders & Gallery\" plugins=\"Masonry,BootstrapCarouselSwipe,Gallery,VimeoPlayer,SliderVideo\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked>\n        <input type=\"range\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"0\" inline>\n        <input type=\"range\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"0\" inline>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#f3f4f6\">\n        <input type=\"checkbox\" title=\"Gradient Overlay\" name=\"gradOverlay\">\n        <input type=\"color\" title=\"Overlay Color 2\" name=\"overlayColor2\" value=\"#ffffff\" condition=\"gradOverlay\">\n        <input type=\"range\" title=\"Overlay Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0\" inline>\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#f3f4f6\">\n        \n        <header>Gallery</header>\n        <input type=\"gallery\" subtype=\"flex\" title=\"Gallery\" name=\"gallery\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div mbr-class=\"{'container': !fullWidth}\">\n        <div mbr-gallery=\"gallery\" mbr-gallery-spacing=\"1\" mbr-gallery-count=\"4\" mbr-gallery-first-count=\"3\" mbr-gallery-second-count=\"2\" mbr-gallery-third-count=\"2\" mbr-gallery-fourth-count=\"3\" mbr-gallery-show-text></div>\n    </div>\n\n</section>",
           "_anchor": "gallery4-1k",
           "_isUserblock": true,
           "_cid": "trj8kCUr0F",
@@ -1061,10 +1061,10 @@
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
                 "image": "@PROJECT_PATH@/assets/images/photo-2022-10-22-13-45-59-2000x1332.jpg",
                 "thumb": "@PROJECT_PATH@/assets/images/photo-2022-10-22-13-45-59-2000x1332-800x533.jpg",
-                "alt": "",
+                "alt": "MALDIVES / RAIE MANTA",
                 "title": "",
                 "customStyle1": "display-7",
-                "caption": "Tapez la légende ici",
+                "caption": "MALDIVES / RAIE MANTA",
                 "active": false
               },
               {
@@ -1100,10 +1100,10 @@
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
                 "image": "@PROJECT_PATH@/assets/images/photo-2022-10-08-15-46-7-2000x1332.jpg",
                 "thumb": "@PROJECT_PATH@/assets/images/photo-2022-10-08-15-46-7-2000x1332-800x533.jpg",
-                "alt": "",
+                "alt": "MALDIVES / RAIE MANTA",
                 "title": "",
                 "customStyle1": "display-7",
-                "caption": "Tapez la légende ici",
+                "caption": "MALDIVES / RAIE MANTA",
                 "active": false
               },
               {
@@ -1111,13 +1111,225 @@
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/photo-2022-10-03-15-33-38-2000x1125.jpeg",
-                "thumb": "@PROJECT_PATH@/assets/images/photo-2022-10-03-15-33-38-2000x1125-800x450.jpeg",
+                "image": "@PROJECT_PATH@/assets/images/0w4a5318-7-2000x2837.jpeg",
+                "thumb": "@PROJECT_PATH@/assets/images/0w4a5318-7-2000x2837-800x800.jpeg",
+                "alt": "ÎLES GALAPAGOS / FOU À PIEDS BLEUS",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "ÎLES GALAPAGOS / FOU À PIEDS BLEUS",
+                "active": true
+              },
+              {
+                "tags": "Adaptatif",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/galapagos-bebe-lion-de-mer-1600x1600.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/galapagos-bebe-lion-de-mer-1600x1600-800x800.jpg",
+                "alt": "FRANCE / BAIE DE SOMME / PHOQUE",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "FRANCE / BAIE DE SOMME / PHOQUE",
+                "active": false
+              },
+              {
+                "tags": "Adaptatif",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/galapagos-requin-baleine-1-1251x1879.jpeg",
+                "thumb": "@PROJECT_PATH@/assets/images/galapagos-requin-baleine-1-1251x1879-800x1005.jpeg",
+                "alt": "ÎLES GALAPAGOS / REQUIN BALEINE",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "ÎLES GALAPAGOS / REQUIN BALEINE",
+                "active": false
+              },
+              {
+                "tags": "Adaptatif",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/reunion-baleine-bosse-1080x1350.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/reunion-baleine-bosse-1080x1350-800x1000.jpg",
+                "alt": "ÎLE DE LA RÉUNION / BALEINE À BOSSE",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "ÎLE DE LA RÉUNION / BALEINE À BOSSE",
+                "active": false
+              },
+              {
+                "tags": "Adaptatif",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/galapagos-raie-manta-7-1287x1799.jpeg",
+                "thumb": "@PROJECT_PATH@/assets/images/galapagos-raie-manta-7-1287x1799-800x1003.jpeg",
+                "alt": "ÎLES GALAPAGOS / RAIE MANTA",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "ÎLES GALAPAGOS / RAIE MANTA",
+                "active": false
+              }
+            ]
+          }
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".mbr-slider .carousel-control": {
+              "background": "#1b1b1b"
+            },
+            ".mbr-slider .carousel-control-prev": {
+              "left": "0",
+              "margin-left": "2.5rem"
+            },
+            ".mbr-slider .carousel-control-next": {
+              "right": "0",
+              "margin-right": "2.5rem"
+            },
+            ".mbr-slider .modal-body .close": {
+              "background": "#1b1b1b"
+            },
+            ".row > .row": {
+              "display": "block"
+            },
+            ".mbr-gallery-item": {
+              "width": "100%"
+            },
+            ".mbr-gallery-item > div::before": {
+              "content": "''",
+              "position": "absolute",
+              "left": "0",
+              "top": "0",
+              "width": "100%",
+              "height": "100%",
+              "background": "@overlayColor",
+              "opacity": "0",
+              "-webkit-transition": "0.2s opacity ease-in-out",
+              "transition": "0.2s opacity ease-in-out",
+              "& when (@gradOverlay)": {
+                "background": "linear-gradient(to left, @overlayColor, @overlayColor2) !important"
+              }
+            },
+            ".mbr-gallery-item > div": {
+              "position": "relative",
+              "&:hover": {
+                ".mbr-gallery-title::before": {
+                  "background": "transparent !important"
+                },
+                "&:before": {
+                  "opacity": "@overlayOpacity !important"
+                }
+              }
+            },
+            ".mbr-gallery-title": {
+              "font-size": ".9em",
+              "position": "absolute",
+              "display": "block",
+              "width": "100%",
+              "bottom": "0",
+              "padding": "1rem",
+              "color": "#fff",
+              "z-index": "2",
+              "&:before": {
+                "content": "\" \"",
+                "width": "100%",
+                "height": "100%",
+                "top": "0",
+                "left": "0",
+                "z-index": "-1",
+                "position": "absolute",
+                "background": "@overlayColor !important",
+                "opacity": "@overlayOpacity",
+                "-webkit-transition": "0.2s background ease-in-out",
+                "transition": "0.2s background ease-in-out",
+                "& when (@gradOverlay)": {
+                  "background": "linear-gradient(to left, @overlayColor, @overlayColor2) !important"
+                }
+              }
+            }
+          },
+          "_name": "gallery4",
+          "_sourceTheme": "mobirise4",
+          "_customHTML": "<section class=\"mbr-gallery mbr-slider-carousel\" group=\"Sliders & Gallery\" plugins=\"Masonry,BootstrapCarouselSwipe,Gallery,VimeoPlayer,SliderVideo\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked>\n        <input type=\"range\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"0\" inline>\n        <input type=\"range\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"0\" inline>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#f3f4f6\">\n        <input type=\"checkbox\" title=\"Gradient Overlay\" name=\"gradOverlay\">\n        <input type=\"color\" title=\"Overlay Color 2\" name=\"overlayColor2\" value=\"#ffffff\" condition=\"gradOverlay\">\n        <input type=\"range\" title=\"Overlay Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0\" inline>\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#f3f4f6\">\n        \n        <header>Gallery</header>\n        <input type=\"gallery\" subtype=\"flex\" title=\"Gallery\" name=\"gallery\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div mbr-class=\"{'container': !fullWidth}\">\n        <div mbr-gallery=\"gallery\" mbr-gallery-spacing=\"1\" mbr-gallery-count=\"2\" mbr-gallery-first-count=\"3\" mbr-gallery-second-count=\"2\" mbr-gallery-third-count=\"2\" mbr-gallery-fourth-count=\"3\" mbr-gallery-show-text></div>\n    </div>\n\n</section>",
+          "_anchor": "gallery4-1p",
+          "_isUserblock": true,
+          "_cid": "tsWCQgxqx8",
+          "_protectedParams": [
+            "gallery"
+          ],
+          "_global": false,
+          "_once": false,
+          "_params": {
+            "gallery": [
+              {
+                "tags": "Impressionnant",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/0w4a2306-2-2000x3000.jpeg",
+                "thumb": "@PROJECT_PATH@/assets/images/0w4a2306-2-2000x3000-800x800.jpeg",
+                "alt": "ÎLES GALAPAGOS / TORTUE",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "ÎLES GALAPAGOS / TORTUE",
+                "active": false
+              },
+              {
+                "tags": "Adaptatif",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/0w4a7774-2-2000x2270.jpeg",
+                "thumb": "@PROJECT_PATH@/assets/images/0w4a7774-2-2000x2270-800x799.jpeg",
                 "alt": "",
                 "title": "",
                 "customStyle1": "display-7",
                 "caption": "Tapez la légende ici",
+                "active": false
+              },
+              {
+                "tags": "Créatif",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/0w4a5149-2000x2000.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/0w4a5149-2000x2000-800x800.jpg",
+                "alt": "ÎLES GALAPAGOS / LION DE MER",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "ÎLES GALAPAGOS / LION DE MER",
                 "active": true
+              },
+              {
+                "tags": "Créatif",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/galapagos-lion-de-mer-1080x720.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/galapagos-lion-de-mer-1080x720-800x533.jpg",
+                "alt": "ÎLES GALAPAGOS / LION DE MER",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "ÎLES GALAPAGOS / LION DE MER",
+                "active": false
+              },
+              {
+                "tags": "Créatif",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/galapagos-raie-manta-2000x1333.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/galapagos-raie-manta-2000x1333-800x533.jpg",
+                "alt": "MALDIVES / RAIE MANTA",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "MALDIVES / RAIE MANTA",
+                "active": false
               }
             ]
           }
@@ -1314,140 +1526,6 @@
             "padding-top": "(@paddingTop * 15px)",
             "padding-bottom": "(@paddingBottom * 15px)",
             "background-color": "@bgColor",
-            ".mbr-slider .carousel-control": {
-              "background": "#1b1b1b"
-            },
-            ".mbr-slider .carousel-control-prev": {
-              "left": "0",
-              "margin-left": "2.5rem"
-            },
-            ".mbr-slider .carousel-control-next": {
-              "right": "0",
-              "margin-right": "2.5rem"
-            },
-            ".mbr-slider .modal-body .close": {
-              "background": "#1b1b1b"
-            },
-            ".row > .row": {
-              "display": "block"
-            },
-            ".mbr-gallery-item": {
-              "width": "100%"
-            },
-            ".mbr-gallery-item > div::before": {
-              "content": "''",
-              "position": "absolute",
-              "left": "0",
-              "top": "0",
-              "width": "100%",
-              "height": "100%",
-              "background": "@overlayColor",
-              "opacity": "0",
-              "-webkit-transition": "0.2s opacity ease-in-out",
-              "transition": "0.2s opacity ease-in-out",
-              "& when (@gradOverlay)": {
-                "background": "linear-gradient(to left, @overlayColor, @overlayColor2) !important"
-              }
-            },
-            ".mbr-gallery-item > div": {
-              "position": "relative",
-              "&:hover": {
-                ".mbr-gallery-title::before": {
-                  "background": "transparent !important"
-                },
-                "&:before": {
-                  "opacity": "@overlayOpacity !important"
-                }
-              }
-            },
-            ".mbr-gallery-title": {
-              "font-size": ".9em",
-              "position": "absolute",
-              "display": "block",
-              "width": "100%",
-              "bottom": "0",
-              "padding": "1rem",
-              "color": "#fff",
-              "z-index": "2",
-              "&:before": {
-                "content": "\" \"",
-                "width": "100%",
-                "height": "100%",
-                "top": "0",
-                "left": "0",
-                "z-index": "-1",
-                "position": "absolute",
-                "background": "@overlayColor !important",
-                "opacity": "@overlayOpacity",
-                "-webkit-transition": "0.2s background ease-in-out",
-                "transition": "0.2s background ease-in-out",
-                "& when (@gradOverlay)": {
-                  "background": "linear-gradient(to left, @overlayColor, @overlayColor2) !important"
-                }
-              }
-            }
-          },
-          "_name": "gallery4",
-          "_sourceTheme": "mobirise4",
-          "_customHTML": "<section class=\"mbr-gallery mbr-slider-carousel\" group=\"Sliders & Gallery\" plugins=\"Masonry,BootstrapCarouselSwipe,Gallery,VimeoPlayer,SliderVideo\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked>\n        <input type=\"range\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"0\" inline>\n        <input type=\"range\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"0\" inline>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#f3f4f6\">\n        <input type=\"checkbox\" title=\"Gradient Overlay\" name=\"gradOverlay\">\n        <input type=\"color\" title=\"Overlay Color 2\" name=\"overlayColor2\" value=\"#ffffff\" condition=\"gradOverlay\">\n        <input type=\"range\" title=\"Overlay Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0\" inline>\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#f3f4f6\">\n        \n        <header>Gallery</header>\n        <input type=\"gallery\" subtype=\"flex\" title=\"Gallery\" name=\"gallery\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div mbr-class=\"{'container': !fullWidth}\">\n        <div mbr-gallery=\"gallery\" mbr-gallery-spacing=\"1\" mbr-gallery-count=\"1\" mbr-gallery-first-count=\"3\" mbr-gallery-second-count=\"3\" mbr-gallery-third-count=\"2\" mbr-gallery-fourth-count=\"3\" mbr-gallery-show-text></div>\n    </div>\n\n</section>",
-          "_anchor": "gallery4-1p",
-          "_isUserblock": true,
-          "_cid": "tsWCQgxqx8",
-          "_protectedParams": [
-            "gallery"
-          ],
-          "_global": false,
-          "_once": false,
-          "_params": {
-            "gallery": [
-              {
-                "tags": "Impressionnant",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/0w4a2306-2-2000x3000.jpeg",
-                "thumb": "@PROJECT_PATH@/assets/images/0w4a2306-2-2000x3000-800x800.jpeg",
-                "alt": "",
-                "title": "",
-                "customStyle1": "display-7",
-                "caption": "Tapez la légende ici",
-                "active": false
-              },
-              {
-                "tags": "Adaptatif",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/0w4a7774-2-2000x2270.jpeg",
-                "thumb": "@PROJECT_PATH@/assets/images/0w4a7774-2-2000x2270-800x799.jpeg",
-                "alt": "",
-                "title": "",
-                "customStyle1": "display-7",
-                "caption": "Tapez la légende ici",
-                "active": false
-              },
-              {
-                "tags": "Créatif",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/0w4a5149-2000x2000.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/0w4a5149-2000x2000-800x800.jpg",
-                "alt": "",
-                "title": "",
-                "customStyle1": "display-7",
-                "caption": "Tapez la légende ici",
-                "active": true
-              }
-            ]
-          }
-        },
-        {
-          "alias": false,
-          "_styles": {
-            "padding-top": "(@paddingTop * 15px)",
-            "padding-bottom": "(@paddingBottom * 15px)",
-            "background-color": "@bgColor",
             "overflow": "hidden",
             "box-sizing": "border-box",
             ".mbr-slider .carousel-control": {
@@ -1525,7 +1603,7 @@
           },
           "_name": "gallery4",
           "_sourceTheme": "mobirise4",
-          "_customHTML": "<section class=\"mbr-gallery mbr-slider-carousel\" group=\"Sliders & Gallery\" plugins=\"Masonry,BootstrapCarouselSwipe,Gallery,VimeoPlayer,SliderVideo\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked>\n        <input type=\"range\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"0\" inline>\n        <input type=\"range\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"0\" inline>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#f3f4f6\">\n        <input type=\"checkbox\" title=\"Gradient Overlay\" name=\"gradOverlay\">\n        <input type=\"color\" title=\"Overlay Color 2\" name=\"overlayColor2\" value=\"#45505b\" condition=\"gradOverlay\">\n        <input type=\"range\" title=\"Overlay Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0\" inline>\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#f3f4f6\">\n        \n        <header>Gallery</header>\n        <input type=\"gallery\" subtype=\"flex\" title=\"Gallery\" name=\"gallery\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div mbr-class=\"{'container': !fullWidth}\">\n        <div mbr-gallery=\"gallery\" mbr-gallery-spacing=\"1\" mbr-gallery-count=\"2\" mbr-gallery-first-count=\"2\" mbr-gallery-second-count=\"3\" mbr-gallery-third-count=\"2\" mbr-gallery-fourth-count=\"2\" mbr-gallery-show-text></div>\n    </div>\n\n</section>",
+          "_customHTML": "<section class=\"mbr-gallery mbr-slider-carousel\" group=\"Sliders & Gallery\" plugins=\"Masonry,BootstrapCarouselSwipe,Gallery,VimeoPlayer,SliderVideo\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked>\n        <input type=\"range\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"0\" inline>\n        <input type=\"range\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"0\" inline>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#f3f4f6\">\n        <input type=\"checkbox\" title=\"Gradient Overlay\" name=\"gradOverlay\">\n        <input type=\"color\" title=\"Overlay Color 2\" name=\"overlayColor2\" value=\"#45505b\" condition=\"gradOverlay\">\n        <input type=\"range\" title=\"Overlay Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0\" inline>\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#f3f4f6\">\n        \n        <header>Gallery</header>\n        <input type=\"gallery\" subtype=\"flex\" title=\"Gallery\" name=\"gallery\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div mbr-class=\"{'container': !fullWidth}\">\n        <div mbr-gallery=\"gallery\" mbr-gallery-spacing=\"1\" mbr-gallery-count=\"3\" mbr-gallery-first-count=\"2\" mbr-gallery-second-count=\"3\" mbr-gallery-third-count=\"2\" mbr-gallery-fourth-count=\"2\" mbr-gallery-show-text></div>\n    </div>\n\n</section>",
           "_cid": "sdH7K36BEh",
           "_anchor": "gallery4-1g",
           "_protectedParams": [
@@ -1542,10 +1620,10 @@
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
                 "image": "@PROJECT_PATH@/assets/images/0w4a6965-1-1280x886.jpeg",
                 "thumb": "@PROJECT_PATH@/assets/images/0w4a6965-1-1280x886-800x533.jpeg",
-                "alt": "",
+                "alt": "ÎLE DE LA RÉUNION / BALEINE À BOSSE",
                 "title": "",
                 "customStyle1": "display-7",
-                "caption": "Tapez la légende ici",
+                "caption": "ÎLE DE LA RÉUNION / BALEINE À BOSSE",
                 "active": false
               },
               {
@@ -1568,10 +1646,10 @@
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
                 "image": "@PROJECT_PATH@/assets/images/0w4a6823-1-895x1280.jpeg",
                 "thumb": "@PROJECT_PATH@/assets/images/0w4a6823-1-895x1280-767x1149.jpeg",
-                "alt": "",
+                "alt": "ÎLE DE LA RÉUNION / BALEINE À BOSSE",
                 "title": "",
                 "customStyle1": "display-7",
-                "caption": "Tapez la légende ici",
+                "caption": "ÎLE DE LA RÉUNION / BALEINE À BOSSE ",
                 "active": false
               },
               {
@@ -1579,12 +1657,12 @@
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/photo-2022-11-13-09-18-9-1366x2048.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/photo-2022-11-13-09-18-9-1366x2048-800x1199.jpg",
-                "alt": "INDONÉSIE / SUMATRA / PÊCHEUSE",
+                "image": "@PROJECT_PATH@/assets/images/plongee-sous-glace-1066x1600.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/plongee-sous-glace-1066x1600-800x1201.jpg",
+                "alt": "FRANCE / HAUT DE SAVOIE / PLONGÉ SOUS GLACE",
                 "title": "",
                 "customStyle1": "display-7",
-                "caption": "INDONÉSIE / SUMATRA / PÊCHEUSE",
+                "caption": "FRANCE / HAUT DE SAVOIE / PLONGÉ SOUS GLACE",
                 "active": true
               },
               {
@@ -1594,6 +1672,32 @@
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
                 "image": "@PROJECT_PATH@/assets/images/0w4a7113-1-767x1151.jpg",
                 "thumb": "@PROJECT_PATH@/assets/images/0w4a7113-1-767x1151-767x1151.jpg",
+                "alt": "ÎLE DE LA RÉUNION / BALEINE À BOSSE",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "ÎLE DE LA RÉUNION / BALEINE À BOSSE&nbsp;",
+                "active": false
+              },
+              {
+                "tags": "Animé",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/photo-2020-09-04-10-22-10-1600x1065.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/photo-2020-09-04-10-22-10-1600x1065-800x533.jpg",
+                "alt": "ÎLE DE LA RÉUNION / ROUTE BORD DE L'OCÉAN ",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "ÎLE DE LA RÉUNION / ROUTE BORD DE L'OCÉAN&nbsp;",
+                "active": false
+              },
+              {
+                "tags": "Animé",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/photo-2020-09-04-10-22-7-1600x1065.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/photo-2020-09-04-10-22-7-1600x1065-800x533.jpg",
                 "alt": "",
                 "title": "",
                 "customStyle1": "display-7",
@@ -1714,10 +1818,10 @@
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
                 "image": "@PROJECT_PATH@/assets/images/0w4a7057-en-tant-quobjet-dynamique-1-2000x1333.jpg",
                 "thumb": "@PROJECT_PATH@/assets/images/0w4a7057-en-tant-quobjet-dynamique-1-2000x1333-800x533.jpg",
-                "alt": "",
+                "alt": "MADAGASCAR / NOSY BE / SINGE",
                 "title": "",
                 "customStyle1": "display-7",
-                "caption": "Tapez la légende ici",
+                "caption": "MADAGASCAR / NOSY BE / SINGE",
                 "active": false
               },
               {
@@ -1727,10 +1831,10 @@
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
                 "image": "@PROJECT_PATH@/assets/images/0w4a7812-2000x1333.jpg",
                 "thumb": "@PROJECT_PATH@/assets/images/0w4a7812-2000x1333-800x533.jpg",
-                "alt": "",
+                "alt": "ÎLES GALAPAGOS / LION DE MER",
                 "title": "",
                 "customStyle1": "display-7",
-                "caption": "Tapez la légende ici",
+                "caption": "ÎLES GALAPAGOS / LION DE MER",
                 "active": false
               },
               {
@@ -1740,10 +1844,10 @@
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
                 "image": "@PROJECT_PATH@/assets/images/0w4a0781-2000x3000.jpg",
                 "thumb": "@PROJECT_PATH@/assets/images/0w4a0781-2000x3000-800x1200.jpg",
-                "alt": "",
+                "alt": "MALTE / THON",
                 "title": "",
                 "customStyle1": "display-7",
-                "caption": "Tapez la légende ici",
+                "caption": "MALTE / THON",
                 "active": false
               },
               {
@@ -1753,10 +1857,10 @@
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
                 "image": "@PROJECT_PATH@/assets/images/0w4a8600-2000x3000.jpg",
                 "thumb": "@PROJECT_PATH@/assets/images/0w4a8600-2000x3000-800x1200.jpg",
-                "alt": "",
+                "alt": "ÎLES GALAPAGOS / LION DE MER",
                 "title": "",
                 "customStyle1": "display-7",
-                "caption": "Tapez la légende ici",
+                "caption": "ÎLES GALAPAGOS / LION DE MER",
                 "active": false
               },
               {
@@ -1881,7 +1985,7 @@
             }
           },
           "_name": "gallery4",
-          "_customHTML": "<section class=\"mbr-gallery mbr-slider-carousel\" group=\"Sliders & Gallery\" plugins=\"Masonry,BootstrapCarouselSwipe,Gallery,VimeoPlayer,SliderVideo\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked>\n        <input type=\"range\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"0\" inline>\n        <input type=\"range\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"0\" inline>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#554346\">\n        <input type=\"checkbox\" title=\"Gradient Overlay\" name=\"gradOverlay\">\n        <input type=\"color\" title=\"Overlay Color 2\" name=\"overlayColor2\" value=\"#45505b\" condition=\"gradOverlay\">\n        <input type=\"range\" title=\"Overlay Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0\" inline>\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#f3f4f6\">\n        \n        <header>Gallery</header>\n        <input type=\"gallery\" subtype=\"flex\" title=\"Gallery\" name=\"gallery\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div mbr-class=\"{'container': !fullWidth}\">\n        <div mbr-gallery=\"gallery\" mbr-gallery-spacing=\"1\" mbr-gallery-count=\"3\" mbr-gallery-first-count=\"3\" mbr-gallery-second-count=\"2\" mbr-gallery-third-count=\"2\" mbr-gallery-fourth-count=\"2\" mbr-gallery-show-text></div>\n    </div>\n\n</section>",
+          "_customHTML": "<section class=\"mbr-gallery mbr-slider-carousel\" group=\"Sliders & Gallery\" plugins=\"Masonry,BootstrapCarouselSwipe,Gallery,VimeoPlayer,SliderVideo\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked>\n        <input type=\"range\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"0\" inline>\n        <input type=\"range\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"0\" inline>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#554346\">\n        <input type=\"checkbox\" title=\"Gradient Overlay\" name=\"gradOverlay\">\n        <input type=\"color\" title=\"Overlay Color 2\" name=\"overlayColor2\" value=\"#45505b\" condition=\"gradOverlay\">\n        <input type=\"range\" title=\"Overlay Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0\" inline>\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#f3f4f6\">\n        \n        <header>Gallery</header>\n        <input type=\"gallery\" subtype=\"flex\" title=\"Gallery\" name=\"gallery\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div mbr-class=\"{'container': !fullWidth}\">\n        <div mbr-gallery=\"gallery\" mbr-gallery-spacing=\"1\" mbr-gallery-count=\"4\" mbr-gallery-first-count=\"3\" mbr-gallery-second-count=\"2\" mbr-gallery-third-count=\"2\" mbr-gallery-fourth-count=\"2\" mbr-gallery-show-text></div>\n    </div>\n\n</section>",
           "_cid": "rVXGoGANmo",
           "_anchor": "gallery4-1a",
           "_sourceTheme": "mobirise4",
@@ -1899,10 +2003,10 @@
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
                 "image": "@PROJECT_PATH@/assets/images/0w4a0953.3-2000x3000.jpg",
                 "thumb": "@PROJECT_PATH@/assets/images/0w4a0953.3-2000x3000-800x1200.jpg",
-                "alt": "",
+                "alt": "MALTE / THON",
                 "title": "",
                 "customStyle1": "display-7",
-                "caption": "Tapez la légende ici",
+                "caption": "MALTE / THON",
                 "active": false
               },
               {
@@ -1912,10 +2016,10 @@
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
                 "image": "@PROJECT_PATH@/assets/images/0w4a1719-2000x3000.jpg",
                 "thumb": "@PROJECT_PATH@/assets/images/0w4a1719-2000x3000-800x1200.jpg",
-                "alt": "",
+                "alt": "NORVÈGE / AURORE BORÉALE",
                 "title": "",
                 "customStyle1": "display-7",
-                "caption": "Tapez la légende ici",
+                "caption": "NORVÈGE / AURORE BORÉALE",
                 "active": false
               },
               {
@@ -1925,10 +2029,10 @@
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
                 "image": "@PROJECT_PATH@/assets/images/0w4a8402-en-tant-quobjet-dynamique-1-2000x3000.jpg",
                 "thumb": "@PROJECT_PATH@/assets/images/0w4a8402-en-tant-quobjet-dynamique-1-2000x3000-800x1200.jpg",
-                "alt": "",
+                "alt": "NORVÈGE / BOEUF MUSQUÉ",
                 "title": "",
                 "customStyle1": "display-7",
-                "caption": "Tapez la légende ici",
+                "caption": "NORVÈGE / BOEUF MUSQUÉ",
                 "active": false
               },
               {
@@ -1938,10 +2042,10 @@
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
                 "image": "@PROJECT_PATH@/assets/images/montriond-1.1-2000x1333.jpg",
                 "thumb": "@PROJECT_PATH@/assets/images/montriond-1.1-2000x1333-800x533.jpg",
-                "alt": "",
+                "alt": "FRANCE / HAUT DE SAVOIE / PLONGÉ SOUS GLACE",
                 "title": "",
                 "customStyle1": "display-7",
-                "caption": "Tapez la légende ici",
+                "caption": "FRANCE / HAUT DE SAVOIE / PLONGÉ SOUS GLACE",
                 "active": false
               },
               {
@@ -1964,10 +2068,10 @@
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
                 "image": "@PROJECT_PATH@/assets/images/0w4a1644-en-tant-quobjet-dynamique-1-2000x1333.jpeg",
                 "thumb": "@PROJECT_PATH@/assets/images/0w4a1644-en-tant-quobjet-dynamique-1-2000x1333-800x533.jpeg",
-                "alt": "",
+                "alt": "NORVÈGE / AURORE BORÉALE",
                 "title": "",
                 "customStyle1": "display-7",
-                "caption": "Aurore boréale",
+                "caption": "NORVÈGE / AURORE BORÉALE",
                 "active": true
               },
               {
@@ -1977,6 +2081,32 @@
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
                 "image": "@PROJECT_PATH@/assets/images/0w4a6619-en-tant-quobjet-dynamique-1-2000x1335.jpeg",
                 "thumb": "@PROJECT_PATH@/assets/images/0w4a6619-en-tant-quobjet-dynamique-1-2000x1335-800x532.jpeg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Tapez la légende ici",
+                "active": false
+              },
+              {
+                "tags": "Impressionnant",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/galapagos-lion-de-mer-3-2000x1334.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/galapagos-lion-de-mer-3-2000x1334-800x534.jpg",
+                "alt": "ÎLES GALAPAGOS / LION DE MER",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "ÎLES GALAPAGOS / LION DE MER",
+                "active": false
+              },
+              {
+                "tags": "Impressionnant",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/photo-2020-09-04-10-22-5-1600x1066.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/photo-2020-09-04-10-22-5-1600x1066-800x533.jpg",
                 "alt": "",
                 "title": "",
                 "customStyle1": "display-7",
@@ -2084,10 +2214,10 @@
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
                 "image": "@PROJECT_PATH@/assets/images/aglaglazor-2000x1333.jpg",
                 "thumb": "@PROJECT_PATH@/assets/images/aglaglazor-2000x1333-800x533.jpg",
-                "alt": "",
+                "alt": "FRANCE / HAUT DE SAVOIE / PLONGÉ SOUS GLACE",
                 "title": "",
                 "customStyle1": "display-7",
-                "caption": "Tapez la légende ici",
+                "caption": "FRANCE / HAUT DE SAVOIE / PLONGÉ SOUS GLACE",
                 "active": false
               },
               {
@@ -2097,10 +2227,10 @@
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
                 "image": "@PROJECT_PATH@/assets/images/godzor-2000x1333.jpg",
                 "thumb": "@PROJECT_PATH@/assets/images/godzor-2000x1333-800x533.jpg",
-                "alt": "",
+                "alt": "ÎLES GALAPAGOS / IGUANE",
                 "title": "",
                 "customStyle1": "display-7",
-                "caption": "Tapez la légende ici",
+                "caption": "ÎLES GALAPAGOS / IGUANE",
                 "active": false
               },
               {
@@ -2139,7 +2269,7 @@
                 "alt": "",
                 "title": "",
                 "customStyle1": "display-7",
-                "caption": "Tapez la légende ici",
+                "caption": "FRANCE / RENARD",
                 "active": false
               },
               {
@@ -2149,10 +2279,10 @@
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
                 "image": "@PROJECT_PATH@/assets/images/boeufpicto120x80-2000x1333.jpg",
                 "thumb": "@PROJECT_PATH@/assets/images/boeufpicto120x80-2000x1333-800x533.jpg",
-                "alt": "",
+                "alt": "NORVÈGE / BOEUF MUSQUÉ",
                 "title": "",
                 "customStyle1": "display-7",
-                "caption": "Tapez la légende ici",
+                "caption": "NORVÈGE / BOEUF MUSQUÉ",
                 "active": true
               },
               {
@@ -2175,10 +2305,10 @@
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
                 "image": "@PROJECT_PATH@/assets/images/0w4a3762-2000x1125.jpg",
                 "thumb": "@PROJECT_PATH@/assets/images/0w4a3762-2000x1125-800x450.jpg",
-                "alt": "",
+                "alt": "ÎLES GALAPAGOS / LION DE MER",
                 "title": "",
                 "customStyle1": "display-7",
-                "caption": "Tapez la légende ici",
+                "caption": "ÎLES GALAPAGOS / LION DE MER",
                 "active": false
               },
               {
@@ -2188,10 +2318,10 @@
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
                 "image": "@PROJECT_PATH@/assets/images/bfzor-2000x1125.jpg",
                 "thumb": "@PROJECT_PATH@/assets/images/bfzor-2000x1125-800x450.jpg",
-                "alt": "",
+                "alt": "NORVÈGE / BOEUF MUSQUÉ",
                 "title": "",
                 "customStyle1": "display-7",
-                "caption": "Tapez la légende ici",
+                "caption": "NORVÈGE / BOEUF MUSQUÉ",
                 "active": false
               }
             ]
@@ -2295,10 +2425,10 @@
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
                 "image": "@PROJECT_PATH@/assets/images/img-9896-2000x3000.jpg",
                 "thumb": "@PROJECT_PATH@/assets/images/img-9896-2000x3000-800x1200.jpg",
-                "alt": "",
+                "alt": "ÎLES GALAPAGOS / LION DE MER",
                 "title": "",
                 "customStyle1": "display-7",
-                "caption": "Tapez la légende ici",
+                "caption": "ÎLES GALAPAGOS / LION DE MER",
                 "active": true
               },
               {
@@ -2308,10 +2438,10 @@
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
                 "image": "@PROJECT_PATH@/assets/images/img-9945-2000x3000.jpg",
                 "thumb": "@PROJECT_PATH@/assets/images/img-9945-2000x3000-800x1200.jpg",
-                "alt": "",
+                "alt": "ÎLES GALAPAGOS / PÉLICAN",
                 "title": "",
                 "customStyle1": "display-7",
-                "caption": "Tapez la légende ici",
+                "caption": "ÎLES GALAPAGOS / PÉLICAN",
                 "active": false
               },
               {
@@ -2321,10 +2451,10 @@
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
                 "image": "@PROJECT_PATH@/assets/images/boobszor-2000x3000.jpg",
                 "thumb": "@PROJECT_PATH@/assets/images/boobszor-2000x3000-800x1200.jpg",
-                "alt": "",
+                "alt": "ÎLES GALAPAGOS / FOU À PIEDS BLEUS",
                 "title": "",
                 "customStyle1": "display-7",
-                "caption": "Tapez la légende ici",
+                "caption": "ÎLES GALAPAGOS / FOU À PIEDS BLEUS",
                 "active": false
               },
               {
@@ -2334,10 +2464,10 @@
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
                 "image": "@PROJECT_PATH@/assets/images/0w4a5074-2000x1333.jpg",
                 "thumb": "@PROJECT_PATH@/assets/images/0w4a5074-2000x1333-800x533.jpg",
-                "alt": "",
+                "alt": "ÎLES GALAPAGOS / IGUANE",
                 "title": "",
                 "customStyle1": "display-7",
-                "caption": "Tapez la légende ici",
+                "caption": "ÎLES GALAPAGOS / IGUANE",
                 "active": false
               },
               {
@@ -2347,10 +2477,10 @@
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
                 "image": "@PROJECT_PATH@/assets/images/0w4a3588-2000x1333.jpg",
                 "thumb": "@PROJECT_PATH@/assets/images/0w4a3588-2000x1333-800x533.jpg",
-                "alt": "",
+                "alt": "ÎLES GALAPAGOS / LION DE MER",
                 "title": "",
                 "customStyle1": "display-7",
-                "caption": "Tapez la légende ici",
+                "caption": "ÎLES GALAPAGOS / LION DE MER",
                 "active": false
               },
               {
@@ -2360,10 +2490,10 @@
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
                 "image": "@PROJECT_PATH@/assets/images/0w4a4616-2000x1333.jpg",
                 "thumb": "@PROJECT_PATH@/assets/images/0w4a4616-2000x1333-800x533.jpg",
-                "alt": "",
+                "alt": "ÎLES GALAPAGOS / LION DE MER",
                 "title": "",
                 "customStyle1": "display-7",
-                "caption": "Tapez la légende ici",
+                "caption": "ÎLES GALAPAGOS / LION DE MER",
                 "active": false
               },
               {
@@ -2496,7 +2626,7 @@
                 "alt": "",
                 "title": "",
                 "customStyle1": "display-7",
-                "caption": "Tapez la légende ici",
+                "caption": "NORVÈGE / BOEUF MUSQUÉ",
                 "active": true
               },
               {
@@ -2519,10 +2649,10 @@
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
                 "image": "@PROJECT_PATH@/assets/images/0w4a8515-2000x3000.jpg",
                 "thumb": "@PROJECT_PATH@/assets/images/0w4a8515-2000x3000-800x1200.jpg",
-                "alt": "",
+                "alt": "ÎLES GALAPAGOS / LION DE MER",
                 "title": "",
                 "customStyle1": "display-7",
-                "caption": "Tapez la légende ici",
+                "caption": "<span style=\"font-size: 14.4px;\">ÎLES GALAPAGOS / LION DE MER</span>",
                 "active": false
               },
               {
@@ -2545,10 +2675,10 @@
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
                 "image": "@PROJECT_PATH@/assets/images/0w4a5172-en-tant-quobjet-dynamique-1-2000x1333.jpg",
                 "thumb": "@PROJECT_PATH@/assets/images/0w4a5172-en-tant-quobjet-dynamique-1-2000x1333-800x533.jpg",
-                "alt": "",
+                "alt": "ÎLES GALAPAGOS / LION DE MER",
                 "title": "",
                 "customStyle1": "display-7",
-                "caption": "Tapez la légende ici",
+                "caption": "ÎLES GALAPAGOS / LION DE MER",
                 "active": false
               },
               {
@@ -2558,10 +2688,10 @@
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
                 "image": "@PROJECT_PATH@/assets/images/bz1a4880-2000x1333.jpg",
                 "thumb": "@PROJECT_PATH@/assets/images/bz1a4880-2000x1333-800x533.jpg",
-                "alt": "",
+                "alt": "NORVÈGE / RENARD",
                 "title": "",
                 "customStyle1": "display-7",
-                "caption": "Tapez la légende ici",
+                "caption": "NORVÈGE / RENARD",
                 "active": false
               },
               {
@@ -2571,10 +2701,10 @@
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
                 "image": "@PROJECT_PATH@/assets/images/montriond-2.1-2000x1333.jpg",
                 "thumb": "@PROJECT_PATH@/assets/images/montriond-2.1-2000x1333-800x533.jpg",
-                "alt": "",
+                "alt": "FRANCE / HAUT DE SAVOIE / PLONGÉ SOUS GLACE",
                 "title": "",
                 "customStyle1": "display-7",
-                "caption": "Tapez la légende ici",
+                "caption": "FRANCE / HAUT DE SAVOIE / PLONGÉ SOUS GLACE",
                 "active": false
               },
               {
@@ -2704,10 +2834,10 @@
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
                 "image": "@PROJECT_PATH@/assets/images/0w4a6020-2000x1333.jpg",
                 "thumb": "@PROJECT_PATH@/assets/images/0w4a6020-2000x1333-800x533.jpg",
-                "alt": "",
+                "alt": "ÎLES GALAPAGOS / IGUANE",
                 "title": "",
                 "customStyle1": "display-7",
-                "caption": "Tapez la légende ici",
+                "caption": "ÎLES GALAPAGOS / IGUANE",
                 "active": false
               },
               {
@@ -2730,10 +2860,10 @@
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
                 "image": "@PROJECT_PATH@/assets/images/0w4a5359-en-tant-quobjet-dynamique-1-2000x1333.jpg",
                 "thumb": "@PROJECT_PATH@/assets/images/0w4a5359-en-tant-quobjet-dynamique-1-2000x1333-800x533.jpg",
-                "alt": "",
+                "alt": "MADAGASCAR / NOSY BE / TORTUE",
                 "title": "",
                 "customStyle1": "display-7",
-                "caption": "Tapez la légende ici",
+                "caption": "MADAGASCAR / NOSY BE / TORTUE",
                 "active": false
               },
               {
@@ -2743,10 +2873,10 @@
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
                 "image": "@PROJECT_PATH@/assets/images/img-170-2000x1334.jpg",
                 "thumb": "@PROJECT_PATH@/assets/images/img-170-2000x1334-800x534.jpg",
-                "alt": "",
+                "alt": "ÎLES GALAPAGOS / IGUANE",
                 "title": "",
                 "customStyle1": "display-7",
-                "caption": "Tapez la légende ici",
+                "caption": "ÎLES GALAPAGOS / IGUANE",
                 "active": false
               },
               {
@@ -2756,10 +2886,10 @@
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
                 "image": "@PROJECT_PATH@/assets/images/0w4a1152-2000x1333.jpg",
                 "thumb": "@PROJECT_PATH@/assets/images/0w4a1152-2000x1333-800x533.jpg",
-                "alt": "",
+                "alt": "MALTE / THON",
                 "title": "",
                 "customStyle1": "display-7",
-                "caption": "Tapez la légende ici",
+                "caption": "MALTE / THON",
                 "active": false
               },
               {
@@ -2876,10 +3006,10 @@
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
                 "image": "@PROJECT_PATH@/assets/images/0w4a7671-2-2000x2999.jpeg",
                 "thumb": "@PROJECT_PATH@/assets/images/0w4a7671-2-2000x2999-800x1203.jpeg",
-                "alt": "",
+                "alt": "ÎLES GALAPAGOS / REQUIN",
                 "title": "",
                 "customStyle1": "display-7",
-                "caption": "Tapez la légende ici",
+                "caption": "ÎLES GALAPAGOS / REQUIN",
                 "active": false
               },
               {
@@ -2889,10 +3019,10 @@
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
                 "image": "@PROJECT_PATH@/assets/images/img-9786-2000x2929.jpeg",
                 "thumb": "@PROJECT_PATH@/assets/images/img-9786-2000x2929-800x1203.jpeg",
-                "alt": "",
+                "alt": "ÎLES GALAPAGOS / PÉLICAN",
                 "title": "",
                 "customStyle1": "display-7",
-                "caption": "Tapez la légende ici",
+                "caption": "ÎLES GALAPAGOS / PÉLICAN",
                 "active": false
               },
               {
@@ -2902,10 +3032,10 @@
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
                 "image": "@PROJECT_PATH@/assets/images/mg-0716.2-2000x3005.jpg",
                 "thumb": "@PROJECT_PATH@/assets/images/mg-0716.2-2000x3005-800x1202.jpg",
-                "alt": "",
+                "alt": "ÎLES GALAPAGOS / PINGOUIN",
                 "title": "",
                 "customStyle1": "display-7",
-                "caption": "Tapez la légende ici",
+                "caption": "ÎLES GALAPAGOS / PINGOUIN",
                 "active": false
               },
               {
@@ -2915,10 +3045,10 @@
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
                 "image": "@PROJECT_PATH@/assets/images/0w4a5282-2000x1333.jpg",
                 "thumb": "@PROJECT_PATH@/assets/images/0w4a5282-2000x1333-800x533.jpg",
-                "alt": "",
+                "alt": "ÎLES GALAPAGOS / FOU À PIEDS BLEUS",
                 "title": "",
                 "customStyle1": "display-7",
-                "caption": "Tapez la légende ici",
+                "caption": "ÎLES GALAPAGOS / FOU À PIEDS BLEUS",
                 "active": false
               },
               {
@@ -2928,10 +3058,10 @@
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
                 "image": "@PROJECT_PATH@/assets/images/0w4a8263-2000x1333.jpg",
                 "thumb": "@PROJECT_PATH@/assets/images/0w4a8263-2000x1333-800x533.jpg",
-                "alt": "",
+                "alt": "ÎLES GALAPAGOS / REQUIN MARTEAU",
                 "title": "",
                 "customStyle1": "display-7",
-                "caption": "Tapez la légende ici",
+                "caption": "ÎLES GALAPAGOS / REQUIN MARTEAU",
                 "active": true
               }
             ]
@@ -3038,7 +3168,7 @@
                 "alt": "",
                 "title": "",
                 "customStyle1": "display-7",
-                "caption": "Tapez la légende ici",
+                "caption": "NORVÈGE / BOEUF MUSQUÉ",
                 "active": false
               },
               {
@@ -3048,10 +3178,10 @@
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
                 "image": "@PROJECT_PATH@/assets/images/img-0651-1-2000x1333.jpg",
                 "thumb": "@PROJECT_PATH@/assets/images/img-0651-1-2000x1333-800x533.jpg",
-                "alt": "",
+                "alt": "ÎLES GALAPAGOS / LION DE MER",
                 "title": "",
                 "customStyle1": "display-7",
-                "caption": "Tapez la légende ici",
+                "caption": "ÎLES GALAPAGOS / LION DE MER",
                 "active": false
               },
               {
@@ -3061,10 +3191,10 @@
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
                 "image": "@PROJECT_PATH@/assets/images/0w4a8668-en-tant-quobjet-dynamique-1-2000x1333.jpg",
                 "thumb": "@PROJECT_PATH@/assets/images/0w4a8668-en-tant-quobjet-dynamique-1-2000x1333-800x533.jpg",
-                "alt": "",
+                "alt": "NORVÈGE / BOEUF MUSQUÉ",
                 "title": "",
                 "customStyle1": "display-7",
-                "caption": "Tapez la légende ici",
+                "caption": "NORVÈGE / BOEUF MUSQUÉ",
                 "active": false
               },
               {
@@ -3113,10 +3243,10 @@
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
                 "image": "@PROJECT_PATH@/assets/images/0w4a9196-2000x3000.jpg",
                 "thumb": "@PROJECT_PATH@/assets/images/0w4a9196-2000x3000-800x1200.jpg",
-                "alt": "",
+                "alt": "ÎLES GALAPAGOS / LION DE MER",
                 "title": "",
                 "customStyle1": "display-7",
-                "caption": "Tapez la légende ici",
+                "caption": "ÎLES GALAPAGOS / LION DE MER",
                 "active": false
               },
               {
@@ -3126,10 +3256,10 @@
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
                 "image": "@PROJECT_PATH@/assets/images/mg-1881-en-tant-quobjet-dynamique-1-2000x3000.jpg",
                 "thumb": "@PROJECT_PATH@/assets/images/mg-1881-en-tant-quobjet-dynamique-1-2000x3000-800x1200.jpg",
-                "alt": "",
+                "alt": "ÎLES GALAPAGOS / LION DE MER",
                 "title": "",
                 "customStyle1": "display-7",
-                "caption": "Tapez la légende ici",
+                "caption": "ÎLES GALAPAGOS / LION DE MER",
                 "active": true
               }
             ]
@@ -3233,10 +3363,10 @@
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
                 "image": "@PROJECT_PATH@/assets/images/mg-33-2000x1334.jpg",
                 "thumb": "@PROJECT_PATH@/assets/images/mg-33-2000x1334-800x534.jpg",
-                "alt": "",
+                "alt": "FRANCE / RENARD",
                 "title": "",
                 "customStyle1": "display-7",
-                "caption": "Tapez la légende ici",
+                "caption": "FRANCE / RENARD",
                 "active": false
               },
               {
@@ -3246,10 +3376,10 @@
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
                 "image": "@PROJECT_PATH@/assets/images/mg-892-2000x1319.jpeg",
                 "thumb": "@PROJECT_PATH@/assets/images/mg-892-2000x1319-800x534.jpeg",
-                "alt": "",
+                "alt": "ÎLES GALAPAGOS / IGUANE",
                 "title": "",
                 "customStyle1": "display-7",
-                "caption": "Tapez la légende ici",
+                "caption": "ÎLES GALAPAGOS / IGUANE",
                 "active": false
               },
               {
@@ -3259,10 +3389,10 @@
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
                 "image": "@PROJECT_PATH@/assets/images/0w4a8635-en-tant-quobjet-dynamique-1-2000x3000.jpg",
                 "thumb": "@PROJECT_PATH@/assets/images/0w4a8635-en-tant-quobjet-dynamique-1-2000x3000-800x1200.jpg",
-                "alt": "",
+                "alt": "NORVÈGE / BOEUF MUSQUÉ",
                 "title": "",
                 "customStyle1": "display-7",
-                "caption": "Tapez la légende ici",
+                "caption": "NORVÈGE / BOEUF MUSQUÉ",
                 "active": false
               },
               {
@@ -3272,10 +3402,10 @@
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
                 "image": "@PROJECT_PATH@/assets/images/-mg-1229-1-2000x2999.jpg",
                 "thumb": "@PROJECT_PATH@/assets/images/mg-1229-1-2000x2999-800x1200.jpg",
-                "alt": "",
+                "alt": "ÎLES GALAPAGOS / LION DE MER",
                 "title": "",
                 "customStyle1": "display-7",
-                "caption": "Tapez la légende ici",
+                "caption": "ÎLES GALAPAGOS / LION DE MER",
                 "active": false
               },
               {
@@ -3285,10 +3415,10 @@
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
                 "image": "@PROJECT_PATH@/assets/images/0w4a8008-en-tant-quobjet-dynamique-1-2000x2958.jpeg",
                 "thumb": "@PROJECT_PATH@/assets/images/0w4a8008-en-tant-quobjet-dynamique-1-2000x2958-800x1200.jpeg",
-                "alt": "",
+                "alt": "FRANCE / APNÉE EN CLUB",
                 "title": "",
                 "customStyle1": "display-7",
-                "caption": "Tapez la légende ici",
+                "caption": "FRANCE / APNÉE EN CLUB",
                 "active": true
               }
             ]
@@ -3392,10 +3522,10 @@
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
                 "image": "@PROJECT_PATH@/assets/images/0w4a8482-en-tant-quobjet-dynamique-1-2000x1333.jpg",
                 "thumb": "@PROJECT_PATH@/assets/images/0w4a8482-en-tant-quobjet-dynamique-1-2000x1333-800x533.jpg",
-                "alt": "",
+                "alt": "NORVÈGE / BOEUF MUSQUÉ",
                 "title": "",
                 "customStyle1": "display-7",
-                "caption": "Tapez la légende ici",
+                "caption": "NORVÈGE / BOEUF MUSQUÉ",
                 "active": false
               },
               {
@@ -3405,10 +3535,10 @@
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
                 "image": "@PROJECT_PATH@/assets/images/dji-0079-3-2000x1332.jpg",
                 "thumb": "@PROJECT_PATH@/assets/images/dji-0079-3-2000x1332-800x533.jpg",
-                "alt": "",
+                "alt": "BIÉLORUSSIE / FÔRET DE BIAŁOWIEŻA",
                 "title": "",
                 "customStyle1": "display-7",
-                "caption": "Tapez la légende ici",
+                "caption": "BIÉLORUSSIE / FÔRET DE&nbsp;BIAŁOWIEŻA",
                 "active": false
               },
               {
@@ -3421,7 +3551,7 @@
                 "alt": "",
                 "title": "",
                 "customStyle1": "display-7",
-                "caption": "Tapez la légende ici",
+                "caption": "FRANCE / RENARD",
                 "active": false
               },
               {
@@ -3431,10 +3561,10 @@
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
                 "image": "@PROJECT_PATH@/assets/images/mg-1692-2000x1329.jpg",
                 "thumb": "@PROJECT_PATH@/assets/images/mg-1692-2000x1329-800x532.jpg",
-                "alt": "",
+                "alt": "ÎLES GALAPAGOS / LION DE MER",
                 "title": "",
                 "customStyle1": "display-7",
-                "caption": "Tapez la légende ici",
+                "caption": "ÎLES GALAPAGOS / LION DE MER",
                 "active": false
               },
               {
