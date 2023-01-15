@@ -128,6 +128,7 @@ done
 sed -i '' -e 's/Tapez la légende ici/LOCALISATION EN COURS .../g' ./index.html
 
 # Modification des données META pour un meilleur référencement
+sed -i '' -e 's/shortcut icon/icon/g' ./index.html
 sed -i '' -e '/og:image/i\
 <link rel="canonical" href="https:\/\/white-house.github.io">' ./index.html
 sed -i '' -e '/og:image/i\
