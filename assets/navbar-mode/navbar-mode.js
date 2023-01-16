@@ -39,12 +39,16 @@ function setDarkModeOnNavBar() {
 	document.getElementById("navbar").classList.remove("bg-color");
 	document.getElementById("navbar").classList.remove("white-mode-bar");
 	document.getElementById("navbar").classList.add("dark-mode-bar");
+	document.getElementById("textDescription").classList.add("testimonial-text-dark-mode");
+	document.getElementById("textDescription").classList.remove("testimonial-text");
 }
 
 function setWhiteModeOnNavBar() {
 	document.getElementById("navbar").classList.remove("dark-mode-bar");
 	document.getElementById("navbar").classList.remove("bg-color");
 	document.getElementById("navbar").classList.add("white-mode-bar");
+	document.getElementById("textDescription").classList.add("testimonial-text");
+	document.getElementById("textDescription").classList.remove("testimonial-text-dark-mode");
 }
 
 function setTransparentNavBar() {
@@ -56,7 +60,7 @@ function setTransparentNavBar() {
 function dayOrNightSelector() {
 	isNightMode = document.getElementById("switch-button").checked;
 	document.getElementById("header2-1").classList.toggle("dark-mode-wallpaper");
-	
+
 	var textTitle = document.querySelectorAll(".nav-link");
 	for (var i = 0; i < textTitle.length; i++) {
 		textTitle[i].classList.toggle("text-black");

@@ -26,7 +26,7 @@ sed -i '' -e 's/assets\/images\/photo-2022-10-03-15-33-38-2000x1125-800x450/asse
 sed -i '' -e 's/p-1{padding:.25rem!important}/p-1{padding:.12rem!important}/g' ./assets/bootstrap/css/bootstrap-grid.min.css 
 
 # On justifie le texte de la description A PROPOS
-sed -i '' -e 's/<p class="mbr-text testimonial-text mbr-fonts-style display-1">/<p class="mbr-text testimonial-text mbr-fonts-style display-1" style="text-align:justify">/g' ./index.html
+sed -i '' -e 's/<p class="mbr-text testimonial-text mbr-fonts-style display-1">/<p class="mbr-text testimonial-text mbr-fonts-style display-1" id="textDescription" style="text-align:justify">/g' ./index.html
 
 # On supprime des balises du bloc description auteur qui ne servent a rien
 sed -i '' -e 's/<p class="mbr-author-name pt-4 mb-2 mbr-fonts-style display-7">&nbsp;<\/p>//g' ./index.html
@@ -144,13 +144,12 @@ sed -i '' -e '/og:image/i\
 sed -i '' -e '/og:image/i\
 <meta property="og:url" content="https:\/\/white-house.github.io\/"\/>' ./index.html
 sed -i '' -e '/og:image/i\
-<meta property="og:description" content="Avec son époustouflant record de France d'"'"'apnée dynamique bi-palmes (204 m), Benoit réalise des photos à travers le monde afin de capturer l'"'"'incroyable beauté de notre planète bleue."\/>' ./index.html
+<meta property="og:description" content="Avec son époustouflant record de France d'"'"'apnée dynamique bi-palmes (204 m), Benoit Maison-Blanche réalise des photos à travers le monde afin de capturer l'"'"'incroyable beauté de notre planète bleue."\/>' ./index.html
 sed -i '' -e '/og:image/i\
 <meta property="og:nom_du_site" content="Benoit Maison-Blanche"\/>' ./index.html
 sed -i '' -e '/twitter:image:src/i\
 <meta name="twitter:title" content="Benoit Maison-Blanche | Photographe & Explorateur">' ./index.html
 sed -i '' -e '/twitter:image:src/i\
-<meta name="twitter:description" content="Avec son époustouflant record de France d'"'"'apnée dynamique bi-palmes (204 m), Benoit réalise des photos à travers le monde afin de capturer l'"'"'incroyable beauté de notre planète bleue.">' ./index.html
+<meta name="twitter:description" content="Avec son époustouflant record de France d'"'"'apnée dynamique bi-palmes (204 m), Benoit Maison-Blanche réalise des photos à travers le monde afin de capturer l'"'"'incroyable beauté de notre planète bleue.">' ./index.html
 sed -i '' -e '/twitter:image:src/i\
 <meta name="thumbnail" content="https:\/\/white-house.github.io\/assets\/images\/index-meta.jpg"/>' ./index.html
-

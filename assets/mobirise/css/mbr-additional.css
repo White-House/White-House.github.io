@@ -2236,7 +2236,13 @@ section.lazy-placeholder:after {
 }
 .cid-rVLVTlNGX1 .testimonial-text {
   font-style: italic;
-  color: #676767;
+  color: #272727;
+  font-weight: 300;
+  text-align: left;
+}
+.cid-rVLVTlNGX1 .testimonial-text-dark-mode {
+  font-style: italic;
+  color: #f3f4f6;
   font-weight: 300;
   text-align: left;
 }
