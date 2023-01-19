@@ -153,3 +153,4 @@ sed -i '' -e '/twitter:image:src/i\
 <meta name="twitter:description" content="Avec son époustouflant record de France d'"'"'apnée dynamique bi-palmes (204 m), Benoit Maison-Blanche réalise des photos à travers le monde afin de capturer l'"'"'incroyable beauté de notre planète bleue.">' ./index.html
 sed -i '' -e '/twitter:image:src/i\
 <meta name="thumbnail" content="https:\/\/white-house.github.io\/assets\/images\/index-meta.jpg"/>' ./index.html
+sed -i '' -e 's/content=".\/assets\/images/content="https:\/\/white-house.github.io\/assets\/images/g' ./index.html
