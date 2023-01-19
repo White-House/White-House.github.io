@@ -154,3 +154,5 @@ sed -i '' -e '/twitter:image:src/i\
 sed -i '' -e '/twitter:image:src/i\
 <meta name="thumbnail" content="https:\/\/white-house.github.io\/assets\/images\/index-meta.jpg"/>' ./index.html
 sed -i '' -e 's/content=".\/assets\/images/content="https:\/\/white-house.github.io\/assets\/images/g' ./index.html
+sed -i '' -e 's/<noscript>/<!--<noscript>/g' ./index.html
+sed -i '' -e 's/<\/noscript>/<\/noscript>-->/g' ./index.html
