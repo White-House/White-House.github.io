@@ -5,9 +5,9 @@
 		<loc>https://white-house.github.io/</loc>
                 <PageMap xmlns="http://www.google.com/schemas/sitemap-pagemap/1.0">
                    <DataObject type="thumbnail">
-                      <Attribute name="src" value="https://white-house.github.io/assets/images/index-meta.jpg"/>
-                      <Attribute name="width" value="1200"/>
-                      <Attribute name="height" value="627"/>
+                      <Attribute name="src" value="https://white-house.github.io/assets/images/infonesie-sumatra-3-1600x1066.jpg"/>
+                      <Attribute name="width" value="1600"/>
+                      <Attribute name="height" value="1066"/>
                     </DataObject>
                 </PageMap>
 		<lastmod>2023-02-02T12:14:49+00:00</lastmod>
