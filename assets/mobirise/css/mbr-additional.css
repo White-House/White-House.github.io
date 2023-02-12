@@ -727,7 +727,7 @@ section.lazy-placeholder:after {
   margin-left: 5rem;
   padding: 0;
   transition: padding .2s;
-  min-height: 3.8rem;
+  min-height: 3.4rem;
   -webkit-align-items: center;
   align-items: center;
 }
@@ -2333,7 +2333,7 @@ section.lazy-placeholder:after {
 
 .night-button {
   cursor:pointer;
-  padding:6px;
+  padding:4px;
   border: 2px solid gray;
   border-radius:30px;
   z-index: 10;
