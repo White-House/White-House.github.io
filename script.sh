@@ -160,6 +160,8 @@ sed -i '' -e '/twitter:image:src/i\
 sed -i '' -e 's/content=".\/assets\/images/content="https:\/\/white-house.github.io\/assets\/images/g' ./index.html
 sed -i '' -e 's/<noscript>/<!--<noscript>/g' ./index.html
 sed -i '' -e 's/<\/noscript>/<\/noscript>-->/g' ./index.html
+sed -i '' -e '/<\/head>/i\
+<script type="application\/ld+json">{"@context": "http:\/\/schema.org\/","@type": "WebSite","name": "Benoit Maison-Blanche | Photographe & Explorateur","url": "https:\/\/white-house.github.io","image": "https:\/\/white-house.github.io\/assets\/images\/infonesie-sumatra-4-1600x1066.jpg","description": "Avec son époustouflant record de France d'"'"'apnée dynamique bi-palmes, Benoit Maison-Blanche réalise des photos à travers le monde afin de capturer l'"'"'incroyable beauté de notre planète bleue."}<\/script>' ./index.html
 
 # Ajout dans le sitemap des images
 # Pour toutes les images du site web on récupère le chemin
