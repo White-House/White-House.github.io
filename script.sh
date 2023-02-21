@@ -91,7 +91,7 @@ sed -i '' -e '/<\/title>/i\
 sed -i '' -e 's/text-black/text-white text-black/g' ./index.html
 
 # On ajoute le logo dans la barre de menu au milieu /!\ DEPEND DU MODE JOUR NUIT /!\
-sed -i '' -e 's/<i class="fas fa-moon"><\/i><\/label>/<i class="fas fa-moon"><\/i><\/label><\/div><div class="navbar-logo logo-center"><a href="#top"><img src=".\/assets\/images\/benoit-maison-blanche_black.png" id="logo" alt="Benoit Maison-Blanche" title="Benoit Maison-Blanche" style="height: 3.8rem;"><\/a>/g' ./index.html
+sed -i '' -e 's/<i class="fas fa-moon"><\/i><\/label>/<i class="fas fa-moon"><\/i><\/label><\/div><div class="navbar-logo logo-center"><a href="#top"><img src=".\/assets\/images\/benoit-maison-blanche_black.png" id="logo" alt="logo" title="logo" style="height: 3.8rem;"><\/a>/g' ./index.html
 
 # Désactivation du clique droit souris (pour ne pas enregistrer les photos simplement) et ajout de la couleur du background
 sed -i '' -e 's/<body>/<body id="body" class="body-background-white" onmousedown="return false" onselectstart="return false" oncontextmenu="return false">/g' ./index.html
@@ -156,7 +156,7 @@ sed -i '' -e '/"og:image"/i\
 sed -i '' -e '/twitter:image:src/i\
 <meta name="twitter:description" content="Avec son époustouflant record de France d'"'"'apnée dynamique bi-palmes, Benoit Maison-Blanche réalise des photos à travers le monde afin de capturer l'"'"'incroyable beauté de notre planète bleue.">' ./index.html
 sed -i '' -e '/twitter:image:src/i\
-<meta name="thumbnail" content="https:\/\/white-house.github.io\/assets\/images\/index-meta.jpg"/>' ./index.html
+<meta name="thumbnail" content="https:\/\/white-house.github.io\/assets\/images\/infonesie-sumatra-4-1600x1066.jpg"/>' ./index.html
 sed -i '' -e 's/content=".\/assets\/images/content="https:\/\/white-house.github.io\/assets\/images/g' ./index.html
 sed -i '' -e 's/<noscript>/<!--<noscript>/g' ./index.html
 sed -i '' -e 's/<\/noscript>/<\/noscript>-->/g' ./index.html
