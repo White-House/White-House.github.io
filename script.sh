@@ -129,8 +129,8 @@ sed -i '' -e 's/Tapez la légende ici/LOCALISATION EN COURS .../g' ./index.html
 
 # Modification des données META pour un meilleur référencement
 sed -i '' -e 's/shortcut icon/icon/g' ./index.html
-#sed -i '' -e '/"og:image"/i\
-#<link rel="canonical" href="https:\/\/white-house.github.io">' ./index.html
+sed -i '' -e '/"og:image"/i\
+<link rel="canonical" href="https:\/\/white-house.github.io">' ./index.html
 sed -i '' -e '/"og:image"/i\
 <meta name="robots" content="index"\/>' ./index.html
 sed -i '' -e '/"og:image"/i\
@@ -144,7 +144,7 @@ sed -i '' -e '/"og:image"/i\
 sed -i '' -e '/"og:image"/i\
 <meta property="og:url" content="https:\/\/white-house.github.io\/"\/>' ./index.html
 sed -i '' -e '/"og:image"/i\
-<meta property="og:description" content="Avec son époustouflant record de France d'"'"'apnée dynamique bi-palmes (204 m), Benoit Maison-Blanche réalise des photos à travers le monde afin de capturer l'"'"'incroyable beauté de notre planète bleue."\/>' ./index.html
+<meta property="og:description" content="Avec son époustouflant record de France d'"'"'apnée dynamique bi-palmes, Benoit Maison-Blanche réalise des photos à travers le monde afin de capturer l'"'"'incroyable beauté de notre planète bleue."\/>' ./index.html
 sed -i '' -e '/"og:image"/i\
 <meta property="og:nom_du_site" content="Benoit Maison-Blanche"\/>' ./index.html
 sed -i '' -e '/"og:image"/i\
@@ -154,9 +154,23 @@ sed -i '' -e '/"og:image"/i\
 #sed -i '' -e '/twitter:image:src/i\
 #<meta name="twitter:title" content="Benoit Maison-Blanche | Photographe & Explorateur">' ./index.html
 sed -i '' -e '/twitter:image:src/i\
-<meta name="twitter:description" content="Avec son époustouflant record de France d'"'"'apnée dynamique bi-palmes (204 m), Benoit Maison-Blanche réalise des photos à travers le monde afin de capturer l'"'"'incroyable beauté de notre planète bleue.">' ./index.html
+<meta name="twitter:description" content="Avec son époustouflant record de France d'"'"'apnée dynamique bi-palmes, Benoit Maison-Blanche réalise des photos à travers le monde afin de capturer l'"'"'incroyable beauté de notre planète bleue.">' ./index.html
 sed -i '' -e '/twitter:image:src/i\
 <meta name="thumbnail" content="https:\/\/white-house.github.io\/assets\/images\/index-meta.jpg"/>' ./index.html
 sed -i '' -e 's/content=".\/assets\/images/content="https:\/\/white-house.github.io\/assets\/images/g' ./index.html
 sed -i '' -e 's/<noscript>/<!--<noscript>/g' ./index.html
 sed -i '' -e 's/<\/noscript>/<\/noscript>-->/g' ./index.html
+
+# Ajout dans le sitemap des images
+# Pour toutes les images du site web on récupère le chemin
+for file in `egrep -io 'loading="lazy" src=".*" alt' ./index.html | grep -io src=".*g" | cut -c 8-`; do 
+	# Si le fichier existe deja dans le sitemap
+	if grep -R $file ./sitemap.xml; then
+		# DO NOTHING, FILE ALREADY EXIST
+		echo "DO NOTHING" > /dev/null 2>&1;
+	else
+		# On ajoute le fichier dans le sitemap
+		sed -i '' -e '/PageMap xmlns/i\
+		<image:image><image:loc>https://white-house.github.io/'$file'</image:loc></image:image>' ./sitemap.xml
+	fi
+done
