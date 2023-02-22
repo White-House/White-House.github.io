@@ -130,7 +130,7 @@ sed -i '' -e 's/Tapez la légende ici/LOCALISATION EN COURS .../g' ./index.html
 # Modification des données META pour un meilleur référencement
 sed -i '' -e 's/shortcut icon/icon/g' ./index.html
 sed -i '' -e '/"og:image"/i\
-<link rel="canonical" href="https:\/\/white-house.github.io">' ./index.html
+<link rel="canonical" href="https:\/\/white-house.github.io"\/>' ./index.html
 sed -i '' -e '/"og:image"/i\
 <meta name="robots" content="index"\/>' ./index.html
 sed -i '' -e '/"og:image"/i\
@@ -144,7 +144,7 @@ sed -i '' -e '/"og:image"/i\
 sed -i '' -e '/"og:image"/i\
 <meta property="og:url" content="https:\/\/white-house.github.io\/"\/>' ./index.html
 sed -i '' -e '/"og:image"/i\
-<meta property="og:description" content="Avec son époustouflant record de France d'"'"'apnée dynamique bi-palmes, Benoit Maison-Blanche réalise des photos à travers le monde afin de capturer l'"'"'incroyable beauté de notre planète bleue."\/>' ./index.html
+<meta property="og:description" content="Avec son époustouflant record de France d'"'"'apnée dynamique, Benoit Maison-Blanche réalise des photos à travers le monde afin de capturer l'"'"'incroyable beauté de notre planète bleue."\/>' ./index.html
 sed -i '' -e '/"og:image"/i\
 <meta property="og:nom_du_site" content="Benoit Maison-Blanche"\/>' ./index.html
 sed -i '' -e '/"og:image"/i\
@@ -154,14 +154,14 @@ sed -i '' -e '/"og:image"/i\
 #sed -i '' -e '/twitter:image:src/i\
 #<meta name="twitter:title" content="Benoit Maison-Blanche | Photographe & Explorateur">' ./index.html
 sed -i '' -e '/twitter:image:src/i\
-<meta name="twitter:description" content="Avec son époustouflant record de France d'"'"'apnée dynamique bi-palmes, Benoit Maison-Blanche réalise des photos à travers le monde afin de capturer l'"'"'incroyable beauté de notre planète bleue.">' ./index.html
+<meta name="twitter:description" content="Avec son époustouflant record de France d'"'"'apnée dynamique, Benoit Maison-Blanche réalise des photos à travers le monde afin de capturer l'"'"'incroyable beauté de notre planète bleue.">' ./index.html
 sed -i '' -e '/twitter:image:src/i\
 <meta name="thumbnail" content="https:\/\/white-house.github.io\/assets\/images\/infonesie-sumatra-4-1600x1066.jpg"/>' ./index.html
 sed -i '' -e 's/content=".\/assets\/images/content="https:\/\/white-house.github.io\/assets\/images/g' ./index.html
 sed -i '' -e 's/<noscript>/<!--<noscript>/g' ./index.html
 sed -i '' -e 's/<\/noscript>/<\/noscript>-->/g' ./index.html
 sed -i '' -e '/<\/head>/i\
-<script type="application\/ld+json">{"@context": "http:\/\/schema.org\/","@type": "WebSite","name": "Benoit Maison-Blanche | Photographe & Explorateur","url": "https:\/\/white-house.github.io","image": "https:\/\/white-house.github.io\/assets\/images\/infonesie-sumatra-4-1600x1066.jpg","description": "Avec son époustouflant record de France d'"'"'apnée dynamique bi-palmes, Benoit Maison-Blanche réalise des photos à travers le monde afin de capturer l'"'"'incroyable beauté de notre planète bleue."}<\/script>' ./index.html
+<script type="application\/ld+json">{"@context": "http:\/\/schema.org\/","@type": "WebSite","name": "Benoit Maison-Blanche | Photographe & Explorateur","url": "https:\/\/white-house.github.io","image": "https:\/\/white-house.github.io\/assets\/images\/infonesie-sumatra-4-1600x1066.jpg","description": "Avec son époustouflant record de France d'"'"'apnée dynamique, Benoit Maison-Blanche réalise des photos à travers le monde afin de capturer l'"'"'incroyable beauté de notre planète bleue."}<\/script>' ./index.html
 
 # Ajout dans le sitemap des images
 # Pour toutes les images du site web on récupère le chemin
