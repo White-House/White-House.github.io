@@ -167,7 +167,7 @@ sed -i '' -e '/<\/head>/i\
 # Pour toutes les images du site web on récupère le chemin
 for file in `egrep -io 'loading="lazy" src=".*" alt' ./index.html | grep -io src=".*g" | cut -c 8-`; do 
 	# Si le fichier existe deja dans le sitemap
-	if grep -R $file ./sitemap.xml; then
+	if grep -R $file ./sitemap.xml &>/dev/null; then
 		# DO NOTHING, FILE ALREADY EXIST
 		echo "DO NOTHING" > /dev/null 2>&1;
 	else
