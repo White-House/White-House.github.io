@@ -177,5 +177,5 @@ for file in `egrep -io 'loading="lazy" src=".*" alt' ./index.html | grep -io src
 	fi
 # Dans tous les cas on modifie la dernière date de modification du site
 today=$(date +%Y-%m-%d)
-sed -i '' -e 's/<lastmod>.*<\/lastmod>/<lastmod>'date +%Y-%m-%d'<\/lastmod>/g' ./sitemap.xml
+sed -i '' -e 's/<lastmod>.*<\/lastmod>/<lastmod>'$today'<\/lastmod>/g' ./sitemap.xml
 done
