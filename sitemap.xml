@@ -3,7 +3,9 @@
 <urlset xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:content="http://www.google.com/schemas/sitemap-content/1.0" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
 	<url>
 		<loc>https://white-house.github.io/</loc>
-		<image:image><image:loc>https://white-house.github.io/assets/images/requin-baleine-1-1816x1210.jpg</image:loc></image:image>
+		<image:image>
+			<image:loc>https://white-house.github.io/assets/images/requin-baleine-1-1816x1210.jpg</image:loc>
+		</image:image>
 		<PageMap xmlns="http://www.google.com/schemas/sitemap-pagemap/1.0">
       	<DataObject type="thumbnail">
          	<Attribute name="src" value="https://white-house.github.io/assets/images/requin-baleine-1-1816x1210.jpg"/>
