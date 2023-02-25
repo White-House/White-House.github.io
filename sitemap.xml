@@ -4,6 +4,13 @@
 	<url>
 		<loc>https://white-house.github.io/</loc>
 		<image:image><image:loc>https://white-house.github.io/assets/images/requin-baleine-1-1816x1210.jpg</image:loc></image:image>
+		<PageMap xmlns="http://www.google.com/schemas/sitemap-pagemap/1.0">
+      	<DataObject type="thumbnail">
+         	<Attribute name="src" value="https://white-house.github.io/assets/images/requin-baleine-1-1816x1210.jpg"/>
+            <Attribute name="width" value="1816"/>
+            <Attribute name="height" value="1210"/>
+      	</DataObject>
+      </PageMap>
 		<image:image><image:loc>https://white-house.github.io/assets/images/img-25-1162x1170.jpg</image:loc></image:image>
 		<image:image><image:loc>https://white-house.github.io/assets/images/infonesie-sumatra-4-1600x1066.jpg</image:loc></image:image>
 		<image:image><image:loc>https://white-house.github.io/assets/images/infonesie-sumatra-5-2000x1334.jpg</image:loc></image:image>
@@ -126,15 +133,8 @@
 		<image:image><image:loc>https://white-house.github.io/assets/images/plongeur-scaphandrier-1784x1190.jpg</image:loc></image:image>
 		<image:image><image:loc>https://white-house.github.io/assets/images/requin-baleine-filet-1851x1233.jpg</image:loc></image:image>
 		<image:image><image:loc>https://white-house.github.io/assets/images/galapagos-raie-manta-9-1600x1067.jpg</image:loc></image:image>
-         <PageMap xmlns="http://www.google.com/schemas/sitemap-pagemap/1.0">
-            <DataObject type="thumbnail">
-               <Attribute name="src" value="https://white-house.github.io/assets/images/requin-baleine-1-1816x1210.jpg"/>
-               <Attribute name="width" value="1816"/>
-               <Attribute name="height" value="1210"/>
-            </DataObject>
-         </PageMap>
       <changefreq>daily</changefreq>
-		<lastmod>2023-02-23</lastmod> <!-- YYYY-MM-DD -->  
+		<lastmod>2023-02-25</lastmod> <!-- YYYY-MM-DD -->  
 		<priority>1.00</priority>
 	</url>
 </urlset>
