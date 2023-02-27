@@ -7,14 +7,14 @@
 			<image:loc>https://white-house.github.io/assets/images/requin-baleine-1-1816x1210.jpg</image:loc>
 		</image:image>
 		<PageMap xmlns="http://www.google.com/schemas/sitemap-pagemap/1.0">
-      	<DataObject type="thumbnail">
-         	<Attribute name="src" value="https://white-house.github.io/assets/images/requin-baleine-1-1816x1210.jpg"/>
-            <Attribute name="width" value="1816"/>
-            <Attribute name="height" value="1210"/>
-      	</DataObject>
-      </PageMap>
-      <changefreq>daily</changefreq>
-		<lastmod>2023-02-26</lastmod> <!-- YYYY-MM-DD -->  
-		<priority>1.00</priority>
-	</url>
+			<DataObject type="thumbnail">
+				<Attribute name="src" value="https://white-house.github.io/assets/images/requin-baleine-1-1816x1210.jpg"/>
+            	<Attribute name="width" value="1816"/>
+            	<Attribute name="height" value="1210"/>
+      		</DataObject>
+      	</PageMap>
+      	<changefreq>daily</changefreq>
+      	<lastmod>2023-02-27</lastmod> <!-- YYYY-MM-DD -->  
+      	<priority>1.00</priority>
+    </url>
 </urlset>
