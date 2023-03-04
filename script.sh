@@ -132,7 +132,7 @@ sed -i '' -e 's/shortcut icon/icon/g' ./index.html
 sed -i '' -e '/"og:image"/i\
 <link rel="canonical" href="https:\/\/white-house.github.io"\/>' ./index.html
 sed -i '' -e '/"og:image"/i\
-<meta name="robots" content="index"\/>' ./index.html
+<meta name="robots" content="index, max-snippet:-1, max-video-preview:-1, max-image-preview:large"\/>' ./index.html
 sed -i '' -e '/"og:image"/i\
 <meta name="copyright" content="© 2023 Benoit MAISON-BLANCHE"\/>' ./index.html
 sed -i '' -e '/"og:image"/i\
