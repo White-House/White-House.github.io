@@ -19,9 +19,6 @@ sed -i '' -e 's/96b/927/g' ./assets/gallery/style.css
 # A modifier en cas de changement de l'image en background
 sed -i '' -e 's/background-position: 50% 50%;/background-position: 85% 50%;/g' ./assets/theme/css/style.css 
 
-# On modifie la taille de l'image en pleine page pour une meilleure résolution 'col-lg-12'
-sed -i '' -e 's/assets\/images\/photo-2022-10-03-15-33-38-2000x1125-800x450/assets\/images\/photo-2022-10-03-15-33-38-2000x1125/g' ./index.html
-
 # On modifie l'espacement des images
 sed -i '' -e 's/p-1{padding:.25rem!important}/p-1{padding:.12rem!important}/g' ./assets/bootstrap/css/bootstrap-grid.min.css 
 
