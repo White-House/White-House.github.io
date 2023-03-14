@@ -1,5 +1,41 @@
 #!/bin/bash
 
+#USER_SIZE=$(echo $USER | wc -m)
+#FULL_SIZE=$(($USER_SIZE+42))
+#i="0"
+#j="0"
+
+#while [ $i -le $FULL_SIZE ]; do echo -ne "#"; ((i=i+1)); done
+clear
+echo "#########################################################"
+echo "############### Bonjour $USER :-)         #############"
+echo "############### Script de MaJ du Site Web ###############"
+echo "#########################################################"
+#while [ $j -le $FULL_SIZE ]; do echo -ne "#"; ((j=j+1)); done
+
+# Fenetre de dialogue avant de commencer
+#defaultImagePath=$(egrep -io "twitter:image:src.*content=.*>" index.html | awk -F'"' '{print $3}')
+defaultImagePath="assets/images/xxxxx.jpg"
+imagePath=$(zenity --entry --title="Chemin image thumbnail/miniature" --text="Veuillez indiquer le chemin de l'image à partager :" --entry-text="${defaultImagePath}")
+
+# Si l'utilisateur annule l'action
+if [[ $? -eq 1 ]]; then
+	exit 1;
+fi
+
+if [ ! -f "$imagePath" ]; then
+	echo "# Chemin non valide pour l'image"
+	echo "##################### Fin du script #####################"
+	echo "#########################################################"
+	exit 1;
+else
+	imageInfo=$(file ${imagePath} | awk -F ',' '{print $15}')
+	imageWidth=$(echo ${imageInfo} | awk -F 'x' '{print $1}')
+	imageHeight=$(echo ${imageInfo} | awk -F 'x' '{print $2}')
+	echo "# Chemin de l'image: ${imagePath}"
+	echo "# Taille W : ${imageWidth} H : ${imageHeight}"
+fi
+
 # On remplace le chemin des fichiers en relative depuis la racine
 sed -i '' -e 's/href="assets/href=".\/assets/g' *.html
 sed -i '' -e 's/src="assets/src=".\/assets/g' *.html
@@ -123,42 +159,78 @@ done
 
 # Au cas ou des images n'aient pas encore une description (localisation), on remplace le texte par défaut
 sed -i '' -e 's/Tapez la légende ici/LOCALISATION EN COURS .../g' ./index.html
-
 # Modification des données META pour un meilleur référencement
 sed -i '' -e 's/shortcut icon/icon/g' ./index.html
-sed -i '' -e '/"og:image"/i\
-<link rel="canonical" href="https:\/\/white-house.github.io"\/>' ./index.html
-sed -i '' -e '/"og:image"/i\
-<meta name="robots" content="index, max-snippet:-1, max-video-preview:-1, max-image-preview:large"\/>' ./index.html
-sed -i '' -e '/"og:image"/i\
-<meta name="copyright" content="© 2023 Benoit MAISON-BLANCHE"\/>' ./index.html
-sed -i '' -e '/"og:image"/i\
-<meta name="Language" CONTENT="fr"\/>' ./index.html
-sed -i '' -e '/"og:image"/i\
-<meta property="og:type" content="website"\/>' ./index.html
-sed -i '' -e '/"og:image"/i\
-<meta property="og:title" content="Benoit Maison-Blanche | Photographe & Explorateur"\/>' ./index.html
-sed -i '' -e '/"og:image"/i\
-<meta property="og:url" content="https:\/\/white-house.github.io\/"\/>' ./index.html
-sed -i '' -e '/"og:image"/i\
-<meta property="og:description" content="Avec son époustouflant record d'"'"'apnée, Benoit Maison-Blanche réalise des photos à travers le monde afin de capturer l'"'"'incroyable beauté de notre planète bleue."\/>' ./index.html
-sed -i '' -e '/"og:image"/i\
-<meta property="og:nom_du_site" content="Benoit Maison-Blanche"\/>' ./index.html
-sed -i '' -e '/"og:image"/i\
-<meta property="og:image:width" content="1200"\/>' ./index.html
-sed -i '' -e '/"og:image"/i\
-<meta property="og:image:height" content="627"\/>' ./index.html
-#sed -i '' -e '/twitter:image:src/i\
-#<meta name="twitter:title" content="Benoit Maison-Blanche | Photographe & Explorateur">' ./index.html
+sed -i '' -e '/<\/title>/a\
+<meta property="og:type" content="website"\/>\
+<meta property="og:title" content="Benoit Maison-Blanche | Photographe & Explorateur"\/>\
+<meta property="og:description" content="Avec son époustouflant record d'"'"'apnée, Benoit Maison-Blanche réalise des photos à travers le monde afin de capturer l'"'"'incroyable beauté de notre planète bleue."\/>\
+<meta property="og:url" content="https:\/\/white-house.github.io\/"\/>\
+<meta property="og:nom_du_site" content="Benoit Maison-Blanche"\/>\
+<meta property="og:image:width" content="'${imageWidth}'"\/>\
+<meta property="og:image:height" content="'${imageHeight}'"\/>\
+<meta name="twitter:card" content="summary_large_image"/>\
+<meta name="twitter:image:src" content="https://white-house.github.io/'${imagePath}'"/>\
+<meta name="twitter:title" content="Benoit Maison-Blanche | Photographe & Explorateur"/>\
+<meta name="twitter:description" content="Avec son époustouflant record d'"'"'apnée, Benoit Maison-Blanche réalise des photos à travers le monde afin de capturer l'"'"'incroyable beauté de notre planète bleue."/>\
+<meta itemprop="name" content="Benoit Maison-Blanche | Photographe & Explorateur"/>\
+<meta itemprop="url" content="https://white-house.github.io"/>\
+<meta itemprop="description" content="Avec son époustouflant record d'"'"'apnée, Benoit Maison-Blanche réalise des photos à travers le monde afin de capturer l'"'"'incroyable beauté de notre planète bleue."\/>\
+<meta itemprop="thumbnailUrl" content="https://white-house.github.io/'${imagePath}'"/>\
+<link rel="canonical" href="https:\/\/white-house.github.io"\/>\
+<meta name="robots" content="index, max-snippet:-1, max-video-preview:-1, max-image-preview:large"\/>\
+<meta name="googlebot" content="index, max-snippet:-1, max-video-preview:-1, max-image-preview:large"\/>\
+<meta name="bingbot" content="index, max-snippet:-1, max-video-preview:-1, max-image-preview:large"\/>\
+<meta name="Language" CONTENT="fr"\/>\
+<meta name="copyright" content="© 2023 Benoit Maison-Blanche"\/>\
+<meta name="author" content="Benoit Maison-Blanche"\/>' ./index.html
+
 sed -i '' -e '/twitter:image:src/i\
-<meta name="twitter:description" content="Avec son époustouflant record d'"'"'apnée, Benoit Maison-Blanche réalise des photos à travers le monde afin de capturer l'"'"'incroyable beauté de notre planète bleue.">' ./index.html
-sed -i '' -e '/twitter:image:src/i\
-<meta name="thumbnail" content="https:\/\/white-house.github.io\/assets\/images\/infonesie-sumatra-4-1600x1066.jpg"/>' ./index.html
+<meta name="twitter:description" content="Avec son époustouflant record d'"'"'apnée, Benoit Maison-Blanche réalise des photos à travers le monde afin de capturer l'"'"'incroyable beauté de notre planète bleue.">\
+<meta name="thumbnail" content="https:\/\/white-house.github.io\/'${imagePath}'"/>' ./index.html
+
 sed -i '' -e 's/content=".\/assets\/images/content="https:\/\/white-house.github.io\/assets\/images/g' ./index.html
 sed -i '' -e 's/<noscript>/<!--<noscript>/g' ./index.html
 sed -i '' -e 's/<\/noscript>/<\/noscript>-->/g' ./index.html
+
+#sed -i '' -e '/<\/head>/i\
+#<script type="application\/ld+json">{"@context": "http:\/\/schema.org\/","@type": "WebSite","name": "Benoit Maison-Blanche | Photographe & Explorateur","url": "https:\/\/white-house.github.io","image": "https:\/\/white-house.github.io\/'${imagePath}'","description": "Avec son époustouflant record d'"'"'apnée, Benoit Maison-Blanche réalise des photos à travers le monde afin de capturer l'"'"'incroyable beauté de notre planète bleue."}<\/script>' ./index.html
+
 sed -i '' -e '/<\/head>/i\
-<script type="application\/ld+json">{"@context": "http:\/\/schema.org\/","@type": "WebSite","name": "Benoit Maison-Blanche | Photographe & Explorateur","url": "https:\/\/white-house.github.io","image": "https:\/\/white-house.github.io\/assets\/images\/infonesie-sumatra-4-1600x1066.jpg","description": "Avec son époustouflant record d'"'"'apnée, Benoit Maison-Blanche réalise des photos à travers le monde afin de capturer l'"'"'incroyable beauté de notre planète bleue."}<\/script>' ./index.html
+	<script type="application/ld+json">{\
+        "@context":"https://schema.org",\
+        "@graph":[{\
+            "@type":"WebSite",\
+            "@id":"https://white-house.github.io/#website",\
+            "url":"https://white-house.github.io/",\
+            "name":"Benoit Maison-Blanche",\
+            "description":"Photographe",\
+            "potentialAction":[{\
+                "@type":"SearchAction",\
+                "target":"https://white-house.github.io/?s={search_term_string}",\
+            "query-input":"required name=search_term_string"}],\
+        "inLanguage":"fr-FR"},{\
+            "@type":"ImageObject",\
+            "@id":"https://white-house.github.io/'${imagePath}'",\
+            "inLanguage":"fr-FR",\
+            "url":"https://white-house.github.io/'${imagePath}'",\
+            "width":"'${imageWidth}'",\
+            "height":"'${imageHeight}'",\
+        "caption":"Requin baleine"},{\
+            "@type":"WebPage",\
+            "@id":"https://white-house.github.io/#webpage",\
+            "url":"https://white-house.github.io/",\
+            "name":"Benoit Maison-Blanche",\
+            "isPartOf":{\
+            "@id":"https://white-house.github.io/#website"},\
+            "primaryImageOfPage":{\
+            "@id":"https://white-house.github.io/'${imagePath}'"},\
+            "description":"Avec son époustouflant record d'"'"'apnée, Benoit Maison-Blanche réalise des photos à travers le monde afin de capturer l'"'"'incroyable beauté de notre planète bleue.",\
+            "inLanguage":"fr-FR",\
+            "potentialAction":[{\
+                "@type":"ReadAction",\
+            "target":["https://white-house.github.io/"]}]}]}\
+    </script>' ./index.html
 
 # Ajout dans le sitemap des images
 # Pour toutes les images du site web on récupère le chemin
@@ -169,10 +241,13 @@ for file in `egrep -io 'loading="lazy" src=".*" alt' ./index.html | grep -io src
 		echo "DO NOTHING" > /dev/null 2>&1;
 	else
 		# On ajoute le fichier dans le sitemap
-		sed -i '' -e '/PageMap xmlns/i\
+		sed -i '' -e '/changefreq/i\
 		<image:image><image:loc>https://white-house.github.io/'$file'</image:loc></image:image>' ./sitemap.xml
 	fi
 # Dans tous les cas on modifie la dernière date de modification du site
 today=$(date +%Y-%m-%d)
 sed -i '' -e 's/<lastmod>.*<\/lastmod>/<lastmod>'$today'<\/lastmod>/g' ./sitemap.xml
 done
+
+echo "##################### Fin du script #####################"
+echo "#########################################################"
