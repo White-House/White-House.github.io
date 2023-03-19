@@ -167,6 +167,7 @@ sed -i '' -e '/<\/title>/a\
 <meta property="og:description" content="Avec son époustouflant record d'"'"'apnée, Benoit Maison-Blanche réalise des photos à travers le monde afin de capturer l'"'"'incroyable beauté de notre planète bleue."\/>\
 <meta property="og:url" content="https:\/\/white-house.github.io\/"\/>\
 <meta property="og:nom_du_site" content="Benoit Maison-Blanche"\/>\
+<meta property="og:image" content="https://white-house.github.io/'${imagePath}'"/>\
 <meta property="og:image:width" content="'${imageWidth}'"\/>\
 <meta property="og:image:height" content="'${imageHeight}'"\/>\
 <meta name="twitter:card" content="summary_large_image"/>\
