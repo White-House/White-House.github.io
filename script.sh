@@ -187,8 +187,8 @@ sed -i '' -e '/<\/title>/a\
 <meta name="author" content="Benoit Maison-Blanche"\/>' ./index.html
 
 sed -i '' -e '/twitter:image:src/i\
-<meta name="twitter:description" content="Avec son époustouflant record d'"'"'apnée, Benoit Maison-Blanche réalise des photos à travers le monde afin de capturer l'"'"'incroyable beauté de notre planète bleue.">\
-<meta name="thumbnail" content="https:\/\/white-house.github.io\/'${imagePath}'"/>' ./index.html
+<meta name="twitter:description" content="Avec son époustouflant record d'"'"'apnée, Benoit Maison-Blanche réalise des photos à travers le monde afin de capturer l'"'"'incroyable beauté de notre planète bleue."\/>\
+<meta name="thumbnail" content="https:\/\/white-house.github.io\/'${imagePath}'"\/>' ./index.html
 
 sed -i '' -e 's/content=".\/assets\/images/content="https:\/\/white-house.github.io\/assets\/images/g' ./index.html
 sed -i '' -e 's/<noscript>/<!--<noscript>/g' ./index.html
