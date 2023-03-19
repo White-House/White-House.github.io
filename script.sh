@@ -167,17 +167,17 @@ sed -i '' -e '/<\/title>/a\
 <meta property="og:description" content="Avec son époustouflant record d'"'"'apnée, Benoit Maison-Blanche réalise des photos à travers le monde afin de capturer l'"'"'incroyable beauté de notre planète bleue."\/>\
 <meta property="og:url" content="https:\/\/white-house.github.io\/"\/>\
 <meta property="og:nom_du_site" content="Benoit Maison-Blanche"\/>\
-<meta property="og:image" content="https:\/\/white-house.github.io\/'${imagePath}'"/>\
+<meta property="og:image" content="https:\/\/white-house.github.io\/'${imagePath}'"\/>\
 <meta property="og:image:width" content="'${imageWidth}'"\/>\
 <meta property="og:image:height" content="'${imageHeight}'"\/>\
-<meta name="twitter:card" content="summary_large_image"/>\
-<meta name="twitter:image:src" content="https:\/\/white-house.github.io\/'${imagePath}'"/>\
-<meta name="twitter:title" content="Benoit Maison-Blanche | Photographe & Explorateur"/>\
-<meta name="twitter:description" content="Avec son époustouflant record d'"'"'apnée, Benoit Maison-Blanche réalise des photos à travers le monde afin de capturer l'"'"'incroyable beauté de notre planète bleue."/>\
-<meta itemprop="name" content="Benoit Maison-Blanche | Photographe & Explorateur"/>\
-<meta itemprop="url" content="https:\/\/white-house.github.io"/>\
+<meta name="twitter:card" content="summary_large_image"\/>\
+<meta name="twitter:image:src" content="https:\/\/white-house.github.io\/'${imagePath}'"\/>\
+<meta name="twitter:title" content="Benoit Maison-Blanche | Photographe & Explorateur"\/>\
+<meta name="twitter:description" content="Avec son époustouflant record d'"'"'apnée, Benoit Maison-Blanche réalise des photos à travers le monde afin de capturer l'"'"'incroyable beauté de notre planète bleue."\/>\
+<meta itemprop="name" content="Benoit Maison-Blanche | Photographe & Explorateur"\/>\
+<meta itemprop="url" content="https:\/\/white-house.github.io"\/>\
 <meta itemprop="description" content="Avec son époustouflant record d'"'"'apnée, Benoit Maison-Blanche réalise des photos à travers le monde afin de capturer l'"'"'incroyable beauté de notre planète bleue."\/>\
-<meta itemprop="thumbnailUrl" content="https:\/\/white-house.github.io\/'${imagePath}'"/>\
+<meta itemprop="thumbnailUrl" content="https:\/\/white-house.github.io\/'${imagePath}'"\/>\
 <link rel="canonical" href="https:\/\/white-house.github.io"\/>\
 <meta name="robots" content="index, max-snippet:-1, max-video-preview:-1, max-image-preview:large"\/>\
 <meta name="googlebot" content="index, max-snippet:-1, max-video-preview:-1, max-image-preview:large"\/>\
