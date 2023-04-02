@@ -1,7 +1,32 @@
 User-agent: *
 Allow: /
+Allow: /assets/images/
 
+Disallow: /assets/bootstrap/
+Disallow: /assets/fa/
+Disallow: /assets/masonry/
+Disallow: /assets/slidervideo/
+Disallow: /assets/socicon/
+Disallow: /assets/vimeoplayer/
+Disallow: /assets/bootstrapcarouselswipe/
+Disallow: /assets/gallery/
+Disallow: /assets/mobirise/
+Disallow: /assets/smoothscroll/
+Disallow: /assets/tether/
+Disallow: /assets/web/
+Disallow: /assets/bubble/
+Disallow: /assets/parallax/
+Disallow: /assets/snow/
+Disallow: /assets/theme/
+Disallow: /assets/dropdown/
+Disallow: /assets/imagesloaded/
+Disallow: /assets/popper/
+Disallow: /assets/sociallikes/
+Disallow: /assets/touchswipe/
+Disallow: /fonts/
+Disallow: /loader/
 Disallow: /script.sh
+Disallow: /404.html
 Disallow: /project.mobirise
 
 Sitemap: https://white-house.github.io/sitemap.xml

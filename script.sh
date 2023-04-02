@@ -179,9 +179,9 @@ sed -i '' -e '/<\/title>/a\
 <meta itemprop="description" content="Avec son époustouflant record d'"'"'apnée, Benoit Maison-Blanche réalise des photos à travers le monde afin de capturer l'"'"'incroyable beauté de notre planète bleue."\/>\
 <meta itemprop="thumbnailUrl" content="https:\/\/white-house.github.io\/'${imagePath}'"\/>\
 <link rel="canonical" href="https:\/\/white-house.github.io"\/>\
-<meta name="robots" content="index, max-snippet:-1, max-video-preview:-1, max-image-preview:large"\/>\
-<meta name="googlebot" content="index, max-snippet:-1, max-video-preview:-1, max-image-preview:large"\/>\
-<meta name="bingbot" content="index, max-snippet:-1, max-video-preview:-1, max-image-preview:large"\/>\
+<meta name="robots" content="index, max-snippet:137, max-video-preview:-1, max-image-preview:large"\/>\
+<meta name="googlebot" content="index, max-snippet:137, max-video-preview:-1, max-image-preview:large"\/>\
+<meta name="bingbot" content="index, max-snippet:137, max-video-preview:-1, max-image-preview:large"\/>\
 <meta name="Language" CONTENT="fr"\/>\
 <meta name="copyright" content="© 2023 Benoit Maison-Blanche"\/>\
 <meta name="author" content="Benoit Maison-Blanche"\/>' ./index.html
