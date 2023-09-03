@@ -47,7 +47,7 @@
   opacity: 1; }
 
 .mbr-gallery .mbr-gallery-item > div {
-  background: #fff;
+  background: transparent;
   display: block;
   outline: none;
   position: relative; }
