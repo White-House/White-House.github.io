@@ -123,9 +123,9 @@ p {
 
     #loader-wrapper .loader-section {
         position: fixed;
-        top: -20px;
+        top: -50px;
         width: 51%;
-        height: 120%;
+        height: 140%;
         background: #272727;
         z-index: 1000;
         -webkit-transform: translateX(0);  /* Chrome, Opera 15+, Safari 3.1+ */
