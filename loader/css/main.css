@@ -28,17 +28,16 @@ p {
 
 /* Logo de chargement */
 
-#loader-logo {
-    display: block;
-    position: relative;
-    left: 50%;
-    top: 50%;
-    width: 150px;
-    height: 150px;
-    margin: -75px 0 0 -75px;
+.loader-logo {
+    width: 80px;
+    height: 80px;
     border-radius: 50%;
-    border: 3px solid transparent;
-    z-index: 1001;
+    top:50%;
+    left:50%;
+    margin: -115px 0 0 -40px; 
+    display: block; 
+    position:relative;
+    z-index: 1001
 }
 
 .loaded #loader-logo {

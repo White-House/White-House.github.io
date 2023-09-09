@@ -106,7 +106,7 @@ sed -i '' -e 's/<\/span><\/div><\/div>/<\/span><\/div>/g' ./index.html
 
 # On ajoute le code pour le easy loader de chargement de la page
 sed -i '' -e '/<body>/a\ 
-<div id="loader-wrapper"><div id="loader"><\/div><div class="loader-section section-left"><\/div><div class="loader-section section-right"><\/div><\/div>' ./index.html
+<div id="loader-wrapper"><div id="loader"><\/div><img src=".\/assets\/images\/favicon-1.ico" class="loader-logo" id="loader-logo"><div class="loader-section section-left"><\/div><div class="loader-section section-right"><\/div><\/div>' ./index.html
 sed -i '' -e '/<\/title>/a\ 
 <link rel="stylesheet" href=".\/loader\/css\/main.css">' ./index.html
 sed -i '' -e '/<\/body>/i\
