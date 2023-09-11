@@ -37,10 +37,7 @@ p {
     margin: -115px 0 0 -40px; 
     display: block; 
     position:relative;
-    z-index: 1001
-    opacity: 1;
-    -webkit-transition: all 0.1s ease-in;  
-    transition: all 0.1s ease-in;
+    z-index: 1001;
 }
 
 .loaded #loader-logo {
