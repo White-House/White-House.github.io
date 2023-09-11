@@ -38,6 +38,9 @@ p {
     display: block; 
     position:relative;
     z-index: 1001;
+    opacity: 1;
+    -webkit-transition: all 0.3s ease-out;  
+    transition: all 0.3s ease-out;
 }
 
 .loaded #loader-logo {
