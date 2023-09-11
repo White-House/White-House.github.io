@@ -42,7 +42,6 @@ p {
     -webkit-transition: all 0.1s ease-in;  
     transition: all 0.1s ease-in;
 }
-}
 
 .loaded #loader-logo {
     opacity: 0;
