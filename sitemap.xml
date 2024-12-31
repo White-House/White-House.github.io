@@ -134,4 +134,9 @@
 		<lastmod>2024-12-31</lastmod> <!-- YYYY-MM-DD -->  
 		<priority>1.00</priority>
 	</url>
+	<url>
+		<loc>https://white-house.github.io/projet-acontrecourant.html</loc>
+		<lastmod>2024-12-31</lastmod> <!-- YYYY-MM-DD -->  
+		<priority>0.80</priority>
+	</url>
 </urlset>
