@@ -41,6 +41,9 @@ function setDarkModeOnNavBar() {
 	document.getElementById("navbar").classList.add("dark-mode-bar");
 	document.getElementById("textDescription").classList.add("testimonial-text-dark-mode");
 	document.getElementById("textDescription").classList.remove("testimonial-text");
+	document.getElementById("textLivre").classList.add("testimonial-text-dark-mode");
+	document.getElementById("textLivre").classList.remove("testimonial-text");
+
 }
 
 function setWhiteModeOnNavBar() {
@@ -49,6 +52,8 @@ function setWhiteModeOnNavBar() {
 	document.getElementById("navbar").classList.add("white-mode-bar");
 	document.getElementById("textDescription").classList.add("testimonial-text");
 	document.getElementById("textDescription").classList.remove("testimonial-text-dark-mode");
+	document.getElementById("textLivre").classList.add("testimonial-text");
+	document.getElementById("textLivre").classList.remove("testimonial-text-dark-mode");
 }
 
 function setTransparentNavBar() {
@@ -75,7 +80,7 @@ function dayOrNightSelector() {
 		}
 	}
 		
-	var nightMode = document.querySelectorAll("#content4-8, #gallery4-1r, #gallery4-1p, #gallery4-1n, #gallery4-1j, #gallery4-1k, #gallery4-1i, #gallery4-1g, #gallery4-1b, #gallery4-1a, #gallery4-6, #gallery4-p, #gallery4-r, #gallery4-t, #gallery4-w, #gallery4-1c, #gallery4-1d, #gallery4-1e, #content4-d, #testimonials3-c, #social-buttons2-1l, #footer6-b");
+	var nightMode = document.querySelectorAll("#content4-8, #gallery4-1r, #gallery4-1p, #gallery4-1n, #gallery4-1j, #gallery4-1k, #gallery4-1i, #gallery4-1g, #gallery4-1b, #gallery4-1a, #gallery4-6, #gallery4-p, #gallery4-r, #gallery4-t, #gallery4-w, #gallery4-1c, #gallery4-1d, #gallery4-1e, #content4-d, #testimonials3-c, #social-buttons2-1l, #footer6-b, #content4-1u, #header3-1t");
 	for(var i = 0; i < nightMode.length; ++i) {
 		nightMode[i].classList.toggle("dark-mode");
 	}

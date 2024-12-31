@@ -15,7 +15,7 @@ echo "#########################################################"
 
 # Fenetre de dialogue avant de commencer
 #defaultImagePath=$(egrep -io "twitter:image:src.*content=.*>" index.html | awk -F'"' '{print $3}')
-defaultImagePath="assets/images/xxxxx.jpg"
+defaultImagePath="assets/images/requin-baleine-1-1816x1210.jpg"
 imagePath=$(zenity --entry --title="Chemin image thumbnail/miniature" --text="Veuillez indiquer le chemin de l'image à partager :" --entry-text="${defaultImagePath}")
 
 # Si l'utilisateur annule l'action
@@ -60,6 +60,9 @@ sed -i '' -e 's/p-1{padding:.25rem!important}/p-1{padding:.12rem!important}/g' .
 
 # On justifie le texte de la description A PROPOS
 sed -i '' -e 's/<p class="mbr-text testimonial-text mbr-fonts-style display-1">/<p class="mbr-text testimonial-text mbr-fonts-style display-1" id="textDescription" style="text-align:justify">/g' ./index.html
+
+# On justifie le texte de la description A LE LIVRE
+sed -i '' -e 's/<p class="mbr-text mbr-fonts-style display-1">/<p class="mbr-text mbr-fonts-style display-1" id="textLivre" style="text-align:justify">/g' ./index.html
 
 # On supprime des balises du bloc description auteur qui ne servent a rien
 sed -i '' -e 's/<p class="mbr-author-name pt-4 mb-2 mbr-fonts-style display-7">&nbsp;<\/p>//g' ./index.html
@@ -183,7 +186,7 @@ sed -i '' -e '/<\/title>/a\
 <meta name="googlebot" content="index, max-snippet:137, max-video-preview:-1, max-image-preview:large"\/>\
 <meta name="bingbot" content="index, max-snippet:137, max-video-preview:-1, max-image-preview:large"\/>\
 <meta name="Language" CONTENT="fr"\/>\
-<meta name="copyright" content="© 2023 Benoit Maison-Blanche"\/>\
+<meta name="copyright" content="© 2024 Benoit Maison-Blanche"\/>\
 <meta name="author" content="Benoit Maison-Blanche"\/>' ./index.html
 
 sed -i '' -e '/twitter:image:src/i\

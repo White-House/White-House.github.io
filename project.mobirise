@@ -51,7 +51,7 @@
       }
     ],
     "versionFirst": "4.7.6",
-    "uniqCompNum": 64,
+    "uniqCompNum": 67,
     "versionPublish": "5.7.4",
     "imageResize": true,
     "screenshot": "screenshot.png",
@@ -63,7 +63,7 @@
     "cookiesAlert": false,
     "gdpr": false,
     "publishType": "local",
-    "publishPath": "@PROJECT_PATH@",
+    "publishPath": "file:///Users/Charles/Documents/GIT/TEST",
     "mbrsiteDomain": "ttspzuqflh"
   },
   "pages": {
@@ -494,7 +494,7 @@
             }
           },
           "_name": "menu2",
-          "_customHTML": "<section class=\"menu\" group=\"Menu\" plugins=\"DropDown, TouchSwipe\" always-top global not-draggable once=\"menu\" position-absolute>\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Show Logo\" name=\"showLogo\">\n        <input type=\"range\" title=\"Logo Size\" inline name=\"logoSize\" min=\"3.8\" max=\"8\" step=\"0.1\" value=\"3.8\" condition=\"showLogo\">\n        <input type=\"checkbox\" title=\"Show Brand Name\" name=\"showBrand\">\n        <input type=\"checkbox\" title=\"Show Menu Items\" name=\"showItems\" checked>\n        <input type=\"color\" title=\"Items Hover Color\" name=\"itemsHoverColor\" value=\"#f3f4f6\" condition=\"showItems\">\n        <input type=\"checkbox\" title=\"Show Button(s)\" name=\"showButtons\">\n        <input type=\"checkbox\" title=\"Sticky\" name=\"sticky\" checked>\n        <input type=\"checkbox\" title=\"Collapsed\" name=\"collapsed\" checked>\n        <input type=\"checkbox\" title=\"Transparent\" name=\"transparent\" checked>\n        <input type=\"color\" title=\"Hamburger Color\" name=\"hamburgerColor\" value=\"#272727\">\n        <input type=\"color\" title=\"Background Color\" name=\"menuBgColor\" value=\"#f3f4f6\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <nav class=\"navbar navbar-expand beta-menu navbar-dropdown align-items-center\" mbr-class=\"{\n        'navbar-fixed-top': sticky,\n        'navbar-toggleable-sm': !collapsed,\n        'collapsed': collapsed,\n        'bg-color transparent': transparent\n        }\">\n        <button class=\"navbar-toggler navbar-toggler-right\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarSupportedContent\" aria-controls=\"navbarSupportedContent\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">\n            <div class=\"hamburger\">\n                <span></span>\n                <span></span>\n                <span></span>\n                <span></span>\n            </div>\n        </button>\n        <div class=\"menu-logo\">\n            <div class=\"navbar-brand\">\n                <span mbr-if=\"showLogo\" class=\"navbar-logo\">\n                    <a href=\"index.html\">\n                        <img src=\"@PROJECT_PATH@/assets/images/benoit-maison-blanche_black-462x138.png\" alt=\"Benoit\" mbr-style=\"{'height': logoSize + 'rem'}\" title>\n                    </a>\n                </span>\n                <span mbr-if=\"showBrand\" mbr-buttons mbr-theme-style=\"display-5\" class=\"navbar-caption-wrap\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove\"><a class=\"navbar-caption text-black\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.co\" data-app-placeholder=\"Type Text\">Benoit Maison-Blanche</a></span>\n            </div>\n        </div>\n        <div class=\"collapse navbar-collapse\" id=\"navbarSupportedContent\">\n            <ul mbr-if=\"showItems\" mbr-menu class=\"navbar-nav nav-dropdown\" mbr-theme-style=\"display-7\" mbr-class=\"{'nav-right': !showButtons,\n                'navbar-nav-top-padding': isPublish && !showBrand && !showLogo}\"><li class=\"nav-item\">\n                    <a class=\"nav-link link text-black\" href=\"index.html#content4-8\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">SOUVENIRS DE VOYAGES</a>\n                </li><li class=\"nav-item\">\n                    <a class=\"nav-link link text-black\" href=\"index.html#content4-d\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">A PROPOS</a>\n                </li></ul>\n            <div mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\" class=\"navbar-buttons mbr-section-btn\">\n                <a class=\"btn btn-sm btn-primary\" href=\"tel:+1-234-567-8901\">\n                    <span class=\"btn-icon mbri-mobile mbr-iconfont mbr-iconfont-btn\" data-app-selector=\".mbr-iconfont-btn\">\n                    </span>\n                    +1-234-567-8901\n                </a>\n            </div>\n        </div>\n    </nav>\n</section>",
+          "_customHTML": "<section class=\"menu\" group=\"Menu\" plugins=\"DropDown, TouchSwipe\" always-top global not-draggable once=\"menu\" position-absolute>\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Show Logo\" name=\"showLogo\">\n        <input type=\"range\" title=\"Logo Size\" inline name=\"logoSize\" min=\"3.8\" max=\"8\" step=\"0.1\" value=\"3.8\" condition=\"showLogo\">\n        <input type=\"checkbox\" title=\"Show Brand Name\" name=\"showBrand\">\n        <input type=\"checkbox\" title=\"Show Menu Items\" name=\"showItems\" checked>\n        <input type=\"color\" title=\"Items Hover Color\" name=\"itemsHoverColor\" value=\"#f3f4f6\" condition=\"showItems\">\n        <input type=\"checkbox\" title=\"Show Button(s)\" name=\"showButtons\">\n        <input type=\"checkbox\" title=\"Sticky\" name=\"sticky\" checked>\n        <input type=\"checkbox\" title=\"Collapsed\" name=\"collapsed\" checked>\n        <input type=\"checkbox\" title=\"Transparent\" name=\"transparent\" checked>\n        <input type=\"color\" title=\"Hamburger Color\" name=\"hamburgerColor\" value=\"#272727\">\n        <input type=\"color\" title=\"Background Color\" name=\"menuBgColor\" value=\"#f3f4f6\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <nav class=\"navbar navbar-expand beta-menu navbar-dropdown align-items-center\" mbr-class=\"{\n        'navbar-fixed-top': sticky,\n        'navbar-toggleable-sm': !collapsed,\n        'collapsed': collapsed,\n        'bg-color transparent': transparent\n        }\">\n        <button class=\"navbar-toggler navbar-toggler-right\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarSupportedContent\" aria-controls=\"navbarSupportedContent\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">\n            <div class=\"hamburger\">\n                <span></span>\n                <span></span>\n                <span></span>\n                <span></span>\n            </div>\n        </button>\n        <div class=\"menu-logo\">\n            <div class=\"navbar-brand\">\n                <span mbr-if=\"showLogo\" class=\"navbar-logo\">\n                    <a href=\"index.html\">\n                        <img src=\"@PROJECT_PATH@/assets/images/benoit-maison-blanche_black-462x138.png\" alt=\"Benoit\" mbr-style=\"{'height': logoSize + 'rem'}\" title>\n                    </a>\n                </span>\n                <span mbr-if=\"showBrand\" mbr-buttons mbr-theme-style=\"display-5\" class=\"navbar-caption-wrap\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove\"><a class=\"navbar-caption text-black\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.co\" data-app-placeholder=\"Type Text\">Benoit Maison-Blanche</a></span>\n            </div>\n        </div>\n        <div class=\"collapse navbar-collapse\" id=\"navbarSupportedContent\">\n            <ul mbr-if=\"showItems\" mbr-menu class=\"navbar-nav nav-dropdown\" mbr-theme-style=\"display-7\" mbr-class=\"{'nav-right': !showButtons,\n                'navbar-nav-top-padding': isPublish && !showBrand && !showLogo}\"><li class=\"nav-item\">\n                    <a class=\"nav-link link text-black text-primary\" href=\"index.html#content4-1u\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">LE LIVRE A CONTRE COURANT</a>\n                </li><li class=\"nav-item\"><a class=\"nav-link link text-black\" href=\"index.html#content4-8\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">SOUVENIRS DE VOYAGES</a></li><li class=\"nav-item\">\n                    <a class=\"nav-link link text-black\" href=\"index.html#content4-d\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">A PROPOS</a>\n                </li></ul>\n            <div mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\" class=\"navbar-buttons mbr-section-btn\">\n                <a class=\"btn btn-sm btn-primary\" href=\"tel:+1-234-567-8901\">\n                    <span class=\"btn-icon mbri-mobile mbr-iconfont mbr-iconfont-btn\" data-app-selector=\".mbr-iconfont-btn\">\n                    </span>\n                    +1-234-567-8901\n                </a>\n            </div>\n        </div>\n    </nav>\n</section>",
           "_cid": "rVMVw69ncm",
           "_anchor": "menu2-y",
           "_sourceTheme": "mobirise4",
@@ -527,6 +527,81 @@
           "_cid": "qTkA127IK8",
           "_anchor": "header2-1",
           "_sourceTheme": "mobirise4",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".mbr-section-subtitle": {
+              "color": "#767676"
+            }
+          },
+          "_name": "content4",
+          "_sourceTheme": "mobirise4",
+          "_customHTML": "<section class=\"mbr-section content4\" group=\"Article\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\">\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#f3f4f6\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"title col-12 col-md-8\">\n                <h2 mbr-if=\"showTitle\" class=\"align-center pb-3 mbr-fonts-style\" mbr-theme-style=\"display-5\">\n                    LIVRE : A CONTRE COURANT</h2>\n                <h3 mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" class=\"mbr-section-subtitle align-center mbr-light mbr-fonts-style\" mbr-theme-style=\"display-5\">\n                    Façonnez votre futur projet web avec une conception précise et affinez les fonctions codées.\n                </h3>\n                <div class=\"mbr-section-btn align-center py-4\" mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\">\n                    <a class=\"btn btn-primary\" href=\"https://mobirise.co\">EN SAVOIR PLUS</a>\n                    <a class=\"btn btn-black-outline\" href=\"https://mobirise.co\">DÉMO LIVE</a>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_anchor": "content4-1u",
+          "_isUserblock": true,
+          "_cid": "tZthu2stJG",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "& when not (@fullScreen)": {
+              "padding-top": "(@paddingTop * 15px)",
+              "padding-bottom": "(@paddingBottom * 15px)"
+            },
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value",
+              "& when (@gradientBg)": {
+                "background": "linear-gradient(45deg, @bg-value, @color2)"
+              }
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            "& when (@reverseContent)": {
+              ".media-container-row": {
+                "flex-direction": "row-reverse",
+                "-webkit-flex-direction": "row-reverse"
+              }
+            },
+            ".mbr-figure": {
+              "@media (min-width: 992px)": {
+                "padding-right": "4rem",
+                "& when (@reverseContent)": {
+                  "padding-right": "0",
+                  "padding-left": "4rem"
+                }
+              },
+              "@media (max-width: 991px)": {
+                "padding-bottom": "3rem"
+              }
+            },
+            ".mbr-text": {
+              "@media (max-width: 767px)": {
+                "text-align": "center"
+              }
+            },
+            ".mbr-text, .mbr-section-btn": {
+              "color": "#232323",
+              "text-align": "center"
+            }
+          },
+          "_name": "header3",
+          "_sourceTheme": "mobirise4",
+          "_customHTML": "<section class=\"header3\" group=\"Headers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-fullscreen': fullScreen,\n                    'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"0\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\" condition=\"fullScreen == false\">\n    \n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubTitle\">\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\" checked>\n        <input type=\"range\" inline title=\"Media Size\" name=\"mediaSize\" min=\"10\" max=\"200\" step=\"5\" value=\"70\">\n        <input type=\"checkbox\" title=\"Media On Left/Right\" name=\"reverseContent\" checked>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"../_images/background4.jpg\" parallax>\n            <input type=\"color\" title=\"Background Color\" value=\"#f3f4f6\" selected>\n            <input type=\"video\" title=\"Background Video\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\">\n        </fieldset>\n\n        <input type=\"checkbox\" title=\"Gradient\" name=\"gradientBg\" condition=\"bg.type == 'color'\">\n        <input type=\"color\" title=\"Color 2\" name=\"color2\" value=\"#232323\" condition=\"gradientBg && bg.type == 'color'\">\n        \n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#232323\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.8\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"mbr-figure\" mbr-style=\"{'width': mediaSize + '%'}\">\n                <img src=\"@PROJECT_PATH@/assets/images/livre-2024-818x437.png\" alt=\"LIVRE / A CONTRE COURANT\">\n            </div>\n\n            <div class=\"media-content\">\n                <h1 class=\"mbr-section-title mbr-white pb-3 mbr-fonts-style\" mbr-if=\"showTitle\" mbr-theme-style=\"display-1\">\n                    Intro with Image\n                </h1>\n                <h3 class=\"mbr-section-subtitle align-left mbr-white mbr-light pb-3 mbr-fonts-style\" mbr-if=\"showSubTitle\" mbr-theme-style=\"display-2\">\n                    Beautiful mobile websites\n                </h3>\n                <div class=\"mbr-section-text mbr-white pb-3 \">\n                    <p class=\"mbr-text mbr-fonts-style\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\" mbr-theme-style=\"display-1\">Le livre « À Contre-Courant » est l’aboutissement d’un projet qui lie trois passions communes : les voyages atypiques, la photographie, ainsi que l’univers aquatique et la pratique de l’apnée à haut niveau.<br><br>Cet ouvrage retrace une grande partie de leurs voyages dans le Triangle de Corail et en Mélanésie. Toutes ces aventures, ils les ont documentées au fil de l’eau, en photographiant et en écrivant chaque moment fort. Au travers de ce livre, ils souhaitent témoigner à la fois de la diversité sous-marine de cette région du monde foisonnante de vie, et aussi de la force culturelle de certaines des tribus les plus éloignées de la planète.<br><br>Aujourd’hui, grâce à ce livre « À Contre-Courant », Benoit et Céline nous invitent à embarquer avec eux et à découvrir à travers nos yeux la diversité et la richesse des rencontres originales que nous avons vécues, sous l’eau et sur terre.<br></p>\n                </div>\n                <div class=\"mbr-section-btn\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\" mbr-buttons mbr-theme-style=\"display-7\"><a class=\"btn btn-md btn-primary\" href=\"https://www.projet-acontrecourant.com\" data-app-placeholder=\"Type Text\" target=\"_blank\">EN SAVOIR PLUS / ACHETER</a></div>\n            </div>\n        </div>\n    </div>\n\n</section>",
+          "_cid": "tZtgGuoSAx",
+          "_anchor": "header3-1t",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
@@ -3856,7 +3931,7 @@
             }
           },
           "_name": "footer6",
-          "_customHTML": "<section group=\"Footers\" global once=\"footers\" mbr-class=\"{'mbr-reveal': reveal, 'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">\n        <input type=\"checkbox\" title=\"Reveal effect\" name=\"reveal\">\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"../_images/background5.jpg\">\n            <input type=\"color\" title=\"Background Color\" value=\"#272727\" selected>\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#232323\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.8\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n    <div class=\"container\">\n        <div class=\"media-container-row align-center mbr-white\">\n            <div class=\"col-12\">\n                <p class=\"mbr-text mb-0 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".media-container-row .mbr-text\" data-app-placeholder=\"Type Text\"><b>© 2023 Benoit MAISON-BLANCHE - Tous droits réservés<br></b>Les images de ce site peuvent être utilisées qu'avec une autorisation écrite de l'auteur<br>Pour toutes informations : Benoitmaisonb@yahoo.fr</p>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_customHTML": "<section group=\"Footers\" global once=\"footers\" mbr-class=\"{'mbr-reveal': reveal, 'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">\n        <input type=\"checkbox\" title=\"Reveal effect\" name=\"reveal\">\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"../_images/background5.jpg\">\n            <input type=\"color\" title=\"Background Color\" value=\"#272727\" selected>\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#232323\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.8\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n    <div class=\"container\">\n        <div class=\"media-container-row align-center mbr-white\">\n            <div class=\"col-12\">\n                <p class=\"mbr-text mb-0 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".media-container-row .mbr-text\" data-app-placeholder=\"Type Text\"><b>© 2024 Benoit MAISON-BLANCHE - Tous droits réservés<br></b>Les images de ce site peuvent être utilisées qu'avec une autorisation écrite de l'auteur<br>Pour toutes informations : Benoitmaisonb@yahoo.fr</p>\n            </div>\n        </div>\n    </div>\n</section>",
           "_cid": "rVLUkdLTMC",
           "_anchor": "footer6-b",
           "_sourceTheme": "mobirise4",
