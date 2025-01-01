@@ -186,7 +186,8 @@ sed -i '' -e '/<\/title>/a\
 <meta name="googlebot" content="index, max-snippet:137, max-video-preview:-1, max-image-preview:large"\/>\
 <meta name="bingbot" content="index, max-snippet:137, max-video-preview:-1, max-image-preview:large"\/>\
 <meta name="Language" CONTENT="fr"\/>\
-<meta name="copyright" content="© 2024 Benoit Maison-Blanche"\/>\
+<meta name="copyright" content="© 2025 Benoit Maison-Blanche"\/>\
+<meta name="keywords" content="Benoit Maison-Blanche, Céline Jacky, A contre courant, Livre, Photographe, Explorateur, Apnée, Plongée"\/>\
 <meta name="author" content="Benoit Maison-Blanche"\/>' ./index.html
 
 sed -i '' -e '/twitter:image:src/i\
