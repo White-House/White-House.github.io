@@ -131,12 +131,12 @@
 		<image:image><image:loc>https://white-house.github.io/assets/images/indonesie-homme-fleur-fumeur-2000x1334.jpg</image:loc></image:image>
 		<image:image><image:loc>https://white-house.github.io/assets/images/indonesie-pecheuse-2000x1334.jpg</image:loc></image:image>
       <changefreq>daily</changefreq>
-		<lastmod>2024-12-31</lastmod> <!-- YYYY-MM-DD -->  
+		<lastmod>2025-01-01</lastmod> <!-- YYYY-MM-DD -->  
 		<priority>1.00</priority>
 	</url>
 	<url>
 		<loc>https://white-house.github.io/projet-acontrecourant.html</loc>
-		<lastmod>2024-12-31</lastmod> <!-- YYYY-MM-DD -->  
+		<lastmod>2025-01-01</lastmod> <!-- YYYY-MM-DD -->  
 		<priority>0.80</priority>
 	</url>
 </urlset>
